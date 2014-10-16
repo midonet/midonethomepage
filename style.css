@@ -247,21 +247,6 @@ nav a:hover {
 .members .member .person {
         font-weight: 600;
 }
-.quickstart {
-        background: #fff;
-        padding: 65px 0;
-}
-.quickstart .quicks {
-        margin: 0 auto;
-        width: 940px;
-        padding: 0 10px;
-        font-size: 20px;
-        line-height: 31px;
-        color: #8d8d8d;
-        font-weight: 300;
-.quickstart .quicks p {
-        margin-bottom: 60px;
-}
 
 .footer {
 	margin-top: 140px;
