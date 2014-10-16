@@ -282,6 +282,12 @@ nav a:hover {
 	float: left;
 	margin-right: 100px;
 }
+
+.footer ul.social li
+{
+height:32px;
+}
+
 .footer ul li a {
 	color: #8d8d8d;
 	font-size: 13px;
@@ -291,11 +297,11 @@ nav a:hover {
 .footer ul.social {
 	margin-right: 0;
 	float: right;
-	text-align: right;
+	text-align: left;
 }
 .footer ul.social li a {
-	font-size: 14px;
-}
+	font-size: 12px;
+	}
 .footer ul.social .twitter a {
 	color: #47c8f5;
 }
@@ -305,3 +311,28 @@ nav a:hover {
 .footer ul.social .github a {
 	color: #000;
 }
+
+.footer ul.social li .sicon {
+	vertical-align:middle;
+	width:24px;
+	height:24px;
+	margin-right:4px;
+	display:inline-block;
+	//background-color:#CCC;
+	-webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    transition:background-color 1s;
+}
+
+.footer ul.social li.github .sicon {
+background: url(i/social/github-32.png) no-repeat center rgba(0,0,0,0.2);
+}
+
+.footer ul.social li.facebook .sicon {
+background: url(i/social/facebook-32.png) no-repeat center rgba(0,0,0,0.2);
+}
+.footer ul.social li.twitter .sicon {
+background: url(i/social/twitter-32.png) no-repeat center rgba(0,0,0,0.2);
+}
+
+
