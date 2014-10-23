@@ -339,7 +339,9 @@ background: url(i/social/twitter-32.png) no-repeat center rgba(0,0,0,0.2);
 width:98% !important;
 	text-align:justify;
 }
-
+a.anchor {
+text-decoration: none !important;
+}
 H1.section-heading::after {
 display:block;
 content:'';
