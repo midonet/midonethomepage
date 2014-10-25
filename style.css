@@ -486,3 +486,15 @@ display:inline-block;
 vertical-align:middle;
 padding-top:10px;
 }
+
+#toTop{
+opacity:0.25;
+display:none;
+position:fixed;
+width:64px;
+height:64px;
+bottom:40px;
+right:40px;
+vertical-align:middle;
+text-align:center;
+}
