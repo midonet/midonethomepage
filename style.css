@@ -362,6 +362,7 @@ z-index:99;
 }
 
 .section-heading {
+margin-top:16px;
 	font-size:40px;
 }
 
@@ -376,16 +377,34 @@ text-transform: uppercase;
 }
 
 
-#help,#quickstart,#contribute {
+#help,#quickstart,#contribute,#resources {
 max-width: 960px;
 padding: 20px 0 0px 0;
 	text-align: center;
 	//font-size: 40px;
 	//letter-spacing: -1px;
-margin: 40px auto 0px auto;
+margin: 40px auto 140px auto;
+
+}
+#quickstart{
+max-width:100%;
+background-color:#00c0e8;
+padding:16px 0px 32px 0px;
+}
+#quickstart h1,#quickstart h1 a{
+color: #fff !important;
+margin:16px 0px;
+font-size:40px;
 }
 
 
+#quickstart div.gbox{
+width:960px;
+margin:auto;
+color: #000;
+
+height:300px;
+}
 #help .wrapper > div {
 display: block;
 float: left;
@@ -400,7 +419,7 @@ margin-right: 67px;
 margin:32px 0px 16px 0px;
 }
 
-.desc {
+.desc, .desc-small {
 
 font-family: 'Open Sans', sans-serif;
 margin: 0 auto;
@@ -411,12 +430,12 @@ margin: 0 auto;
 color: #8d8d8d;
 	font-weight: 300;
 }
-
-.col-third {
-width:33%;
-float:left;
-
+.desc-small {
+font-size:16px;
+line-height:20px;
+margin-bottom:16px;
 }
+
 
 
 .col-fourth{
@@ -433,12 +452,19 @@ width:33%;
 float:left;
 min-width:200px;
 }
+
+.col-half {
+width:50%;
+float:left;
+min-width:200px;
+}
+
 .col-one-third:nth-child(3n+1) .box
 {
 //margin-right:0px;
 }
 
-.col-fourth .box,.col-third .box,.col-two-third .box,.col-one-third .box {
+.col-fourth .box,.col-third .box,.col-two-third .box,.col-one-third .box,.col-half .box {
 width:initial;
 margin:0 66px 25px 0px;
 }
@@ -497,4 +523,61 @@ bottom:40px;
 right:40px;
 vertical-align:middle;
 text-align:center;
+}
+/* Colorings */
+.midoblue {
+color:#21bde4;
+color:#00c0e8;
+}
+
+.midoblue-bg {
+background-color:#21bde4
+background-color:#00c0e8;
+}
+
+.midogreen {
+color:#8ab323
+}
+
+.midogreen-bg {
+background-color:#8ab323
+}
+
+.midolightgrey {
+color :#f7f8f8;
+}
+.midolightgrey-bg {
+background-color:#f7f8f8;
+}
+
+ul.rlinks li {
+
+background: url(i/icon_doc_16.png) no-repeat 0px 2px;
+padding-left:24px;
+text-align:left;
+}
+ul.rlinks li a{
+text-decoration:none;
+}
+ul.rlinks li a:hover{
+text-decoration:underline;
+}
+
+ul.dlinks {
+margin-top:16px;
+
+}
+
+ul.dlinks li {
+
+background: url(i/icon_save.png) no-repeat 0px 2px;
+padding-left:24px;
+text-align:left;
+
+}
+ul.dlinks li a{
+text-decoration:none;
+}
+ul.dlinks li a:hover{
+text-decoration:underline;
 }
