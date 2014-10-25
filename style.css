@@ -413,6 +413,7 @@ color: #8d8d8d;
 .col-third {
 width:33%;
 float:left;
+
 }
 
 
@@ -428,11 +429,16 @@ float:left;
 .col-one-third {
 width:33%;
 float:left;
+min-width:200px;
+}
+.col-one-third:nth-child(3n+1) .box
+{
+//margin-right:0px;
 }
 
 .col-fourth .box,.col-third .box,.col-two-third .box,.col-one-third .box {
 width:initial;
-margin:0 25px 25px 0px;
+margin:0 66px 25px 0px;
 }
 .box h3 {
     text-align: left;
