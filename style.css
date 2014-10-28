@@ -497,8 +497,6 @@ line-height:20px;
 margin-bottom:16px;
 }
 
-
-
 .col-fourth{
 width:25%;
 float:left;
@@ -546,7 +544,7 @@ font-size:13px;
 color: #555;
 line-height:21px;
 
-text-align:justify;
+text-align:left;
 
 }
 .gbox {
