@@ -186,6 +186,7 @@ color: #747575;
 }
 .features ul li {
 	list-style: disc;
+	padding-left: 7px;
 	margin-left: 16px;
 	font-size: 9px;
 }
