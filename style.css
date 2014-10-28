@@ -416,10 +416,14 @@ margin: 40px auto 140px auto;
 
 }
 #quickstart{
-max-width:100%;
-line-height: 21px;
-background-color:#00c0e8;
-padding:16px 0px 32px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	line-height: 25px;
+	max-width:100%;
+	background-color:#00c0e8;
+	padding:16px 0px 32px 0px;
+	color: #8d8d8d;
+	font-weight: 300;
 }
 #quickstart p {
 	text-align:left;
