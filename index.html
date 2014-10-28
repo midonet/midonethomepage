@@ -202,21 +202,26 @@ Ask MidoNet on StackExchange
     <center><h1><a class="anchor" name="quickstart">Quickstart</a></h1></center>
 	</div>
 	<div class="qbox">
-    <p>
+    <p class="desc">
     To get started with a development all-in-one environment, you can use the midostack tool, based on <a href="http://devstack.org/">Devstack</a>.  It will build and deploy OpenStack and MidoNet from the latest trunk source code.  Initially MidoStack only supports Ubuntu 14.04, more distros will be supported in the near future.</p>
-    
-    <br />
+      <br />
+	  <div class="content">
     <h2>Step 0 : Prepare Ubuntu 14.04 (Trusty)</h2>
-    <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.  If you already have a box with Ubuntu 14.04 ready, skip to step 1.  If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a>  If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:</p>
-    <br />
-    <p>Clone the midostack repository, containing the vagrant definition file.</p>
+    <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.
+<ul><li>If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>.</li>
+<li> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a></li>
+<li>If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:<br/><br/>
+<p>i) Clone the midostack repository, containing the vagrant definition file.</p>
     <pre>git clone http://github.com/midonet/midostack</pre>
-    <p>Change directories to the newly cloned midostack, and create the vagrant VM.</p>
+    <p>ii) Change directories to the newly cloned midostack, and create the vagrant VM.</p>
     <pre>cd midostack; vagrant up</pre>
-    <p>After the vagrant VM has been created, login to it.</p>
+    <p>iii) After the vagrant VM has been created, login to it.</p>
     <pre>vagrant ssh</pre>
     <br />
-    <h2>Step 1 : Download Midostack</h2>
+   
+</li></ul></p>
+    
+     <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
     <p>Clone the midostack repository</p>
     <pre>git clone http://github.com/midonet/midostack</pre>
     <br />
@@ -225,6 +230,7 @@ Ask MidoNet on StackExchange
     <p>Time to run it, this can take awhile, so grab a coffee and come back later.</p>
     <pre>./midonet_stack.sh</pre>
     <p>Check out the <a href="http://github.com/midonet/midostack">README</a> for more help on using midostack.</p>
+	</div>
 	</div>
 	
 </section>
@@ -311,8 +317,8 @@ Ask MidoNet on StackExchange
 	    <div class="top clearfix">
 			<span class="logo">Midonet</span>
 			&copy; 2011 - 2014
-			<a href="#">Terms &amp; Conditions</a>
-			<a href="#">Privacy Policy</a>
+			<a href="trademark-policy.html">Terms &amp; Conditions</a>
+			<a href="privacy-policy.html">Privacy Policy</a>
 		</div>
 		<ul>
 			<li><a href="http://wiki.midonet.org">Midonet Wiki</a></li>
