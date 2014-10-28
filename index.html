@@ -207,16 +207,21 @@ Ask MidoNet on StackExchange
       <br />
 	  <div class="content">
     <h2>Step 0 : Prepare Ubuntu 14.04 (Trusty)</h2>
-    <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.  If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>. <br /> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a> <br /> If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:</p>
-    <br />
-    <p>i) Clone the midostack repository, containing the vagrant definition file.</p>
+    <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.
+<ul><li>If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>.</li>
+<li> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a></li>
+<li>If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:<br/><br/>
+<p>i) Clone the midostack repository, containing the vagrant definition file.</p>
     <pre>git clone http://github.com/midonet/midostack</pre>
     <p>ii) Change directories to the newly cloned midostack, and create the vagrant VM.</p>
     <pre>cd midostack; vagrant up</pre>
     <p>iii) After the vagrant VM has been created, login to it.</p>
     <pre>vagrant ssh</pre>
     <br />
-    <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
+   
+</li></ul></p>
+    
+     <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
     <p>Clone the midostack repository</p>
     <pre>git clone http://github.com/midonet/midostack</pre>
     <br />
