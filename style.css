@@ -682,3 +682,7 @@ text-decoration:none;
 ul.dlinks li a:hover{
 text-decoration:underline;
 }
+
+.guide-link{
+margin-top:40px;
+} 
