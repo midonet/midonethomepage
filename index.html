@@ -75,11 +75,69 @@
           <img src="i/graphic.png" alt="" />
         </div>
       </section>
+       <section id="quickstart">
+        <div>
+          <center><h1><a class="anchor" name="quickstart">Quickstart</a></h1></center>
+        </div>
+        <div class="qbox">
+          <p class="desc">
+            To get started with a development all-in-one environment, you can use the midostack tool, based on <a href="http://devstack.org/">Devstack</a>.  It will build and deploy OpenStack and MidoNet from the latest trunk source code.  Initially MidoStack only supports Ubuntu 14.04, more distros will be supported in the near future.</p>
+            <br />
+            <div class="content">
+              <h2>Step 0 : Prepare Ubuntu 14.04 (Trusty)</h2>
+              <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.
+                <ul><li>If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>.</li>
+                  <li> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a></li>
+                  <li>If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:<br/><br/>
+                    <p>i) Clone the midostack repository, containing the vagrant definition file.</p>
+                    <pre>git clone http://github.com/midonet/midostack</pre>
+                    <p>ii) Change directories to the newly cloned midostack, and create the vagrant VM.</p>
+                    <pre>cd midostack; vagrant up</pre>
+                    <p>iii) After the vagrant VM has been created, login to it.</p>
+                    <pre>vagrant ssh</pre>
+                    <br />
 
-      <section class="members">
-        <div class="member member1">
+                  </li></ul></p>
+
+                  <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
+                  <p>Clone the midostack repository</p>
+                  <pre>git clone http://github.com/midonet/midostack</pre>
+                  <br />
+                  <h2>Step 2 : Run Midostack</h2>
+                  <pre>cd ./midostack</pre>
+                  <p>Time to run it, this can take awhile, so grab a coffee and come back later.</p>
+                  <pre>./midonet_stack.sh</pre>
+                  <p>Check out the <a href="http://github.com/midonet/midostack">README</a> for more help on using midostack.</p>
+                </div>
+              </div>
+
+            </section>
+
+            <section id="contribute">
+              <div>
+                <h1 class="section-heading"><a class="anchor" id="contribute">Want to Contribute?</a></h1>
+                <div class="clearfix">
+
+                 <div class="col-one-third"><div class="align-center"><a href="http://github.com/midonet"><img src="i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="http://github.com/midonet">github.com/midonet</a></div></div>
+                 <div class="col-one-third">
+                   <div class="align-center">
+                     <img src="i/chat.png" border="0">#midonet on freenode</p>
+                     <strong><br>
+                     </strong></div></div>
+                     <div class="col-one-third"><div class="align-center">
+                       <a href="http://lists.midonet.org" target="_self"><img src="i/mail.png"  border="0"></a><br>
+                       <a href="http://lists.midonet.org">lists.midonet.org</a>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="guide-link"><a class="document" href="http://wiki.midonet.org/How%20to%20contribute" target="_self">View Complete Contribution Guide</a></div>
+               </div>
+             </section> 
+
+      <section class="members intro">
+        <div class="intro">
           <br />
-          <p>MidoNet is committed to being a truly open community. The project idea originated from the team at Midokura, whom released the code into the wild in November of 2014 under the Apache license.  Community members now include contributors and users from each of the following companies&#8230;</p>
+          <p>MidoNet is committed to being a truly open community. The project idea originated from the team at Midokura, whom released the code into the wild in November of 2014 under the Apache license. We have a thriving community of users and contributors to the MidoNet project.  Want to join the community? Check our guide on <a href="http://wiki.midonet.org/How%20to%20contribute">how to contribute</a></p>
         </div>
       </section>
       <section class="users clearfix">
@@ -207,64 +265,7 @@
        </section>
 
 
-       <section id="quickstart">
-        <div>
-          <center><h1><a class="anchor" name="quickstart">Quickstart</a></h1></center>
-        </div>
-        <div class="qbox">
-          <p class="desc">
-            To get started with a development all-in-one environment, you can use the midostack tool, based on <a href="http://devstack.org/">Devstack</a>.  It will build and deploy OpenStack and MidoNet from the latest trunk source code.  Initially MidoStack only supports Ubuntu 14.04, more distros will be supported in the near future.</p>
-            <br />
-            <div class="content">
-              <h2>Step 0 : Prepare Ubuntu 14.04 (Trusty)</h2>
-              <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.
-                <ul><li>If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>.</li>
-                  <li> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a></li>
-                  <li>If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:<br/><br/>
-                    <p>i) Clone the midostack repository, containing the vagrant definition file.</p>
-                    <pre>git clone http://github.com/midonet/midostack</pre>
-                    <p>ii) Change directories to the newly cloned midostack, and create the vagrant VM.</p>
-                    <pre>cd midostack; vagrant up</pre>
-                    <p>iii) After the vagrant VM has been created, login to it.</p>
-                    <pre>vagrant ssh</pre>
-                    <br />
-
-                  </li></ul></p>
-
-                  <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
-                  <p>Clone the midostack repository</p>
-                  <pre>git clone http://github.com/midonet/midostack</pre>
-                  <br />
-                  <h2>Step 2 : Run Midostack</h2>
-                  <pre>cd ./midostack</pre>
-                  <p>Time to run it, this can take awhile, so grab a coffee and come back later.</p>
-                  <pre>./midonet_stack.sh</pre>
-                  <p>Check out the <a href="http://github.com/midonet/midostack">README</a> for more help on using midostack.</p>
-                </div>
-              </div>
-
-            </section>
-
-            <section id="contribute">
-              <div>
-                <h1 class="section-heading"><a class="anchor" id="contribute">Want to Contribute?</a></h1>
-                <div class="clearfix">
-
-                 <div class="col-one-third"><div class="align-center"><a href="http://github.com/midonet"><img src="i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="http://github.com/midonet">github.com/midonet</a></div></div>
-                 <div class="col-one-third">
-                   <div class="align-center">
-                     <img src="i/chat.png" border="0">#midonet on freenode</p>
-                     <strong><br>
-                     </strong></div></div>
-                     <div class="col-one-third"><div class="align-center">
-                       <a href="http://lists.midonet.org" target="_self"><img src="i/mail.png"  border="0"></a><br>
-                       <a href="http://lists.midonet.org">lists.midonet.org</a>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="guide-link"><a class="document" href="http://wiki.midonet.org/How%20to%20contribute" target="_self">View Complete Contribution Guide</a></div>
-               </div>
-             </section>
+      
 
              <section id="resources">
               <div class="gbox">
