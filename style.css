@@ -413,6 +413,25 @@ H1.section-heading::after {
 	margin: 40px auto 14px auto;
 
 }
+#videointro{
+	max-width:100%;
+	//background-color:#00c0e8;
+	background-color:#535557;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	padding:42px 0px 62px 0px;
+	color: #000;
+	
+
+}
+#videointro h3,#videointro h3 a{
+	width: 720px;
+	font-size: 32px;
+	color: #fff;
+	font-weight: 300;
+	line-height: 31px;
+	margin-left: 70px;
+}
 #quickstart{
 
 	max-width:100%;
