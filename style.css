@@ -408,20 +408,16 @@ H1.section-heading::after {
 	max-width: 960px;
 	padding: 20px 0 0px 0;
 	text-align: center;
-	//font-size: 40px;
-	//letter-spacing: -1px;
 	margin: 40px auto 14px auto;
 
 }
 #videointro{
 	max-width:100%;
-	//background-color:#00c0e8;
 	background-color:#535557;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 25px;
 	padding:42px 0px 62px 0px;
 	color: #000;
-	
 
 }
 #videointro h3,#videointro h3 a{
@@ -431,11 +427,11 @@ H1.section-heading::after {
 	font-weight: 300;
 	line-height: 41px;
 	margin-left: 70px;
+	
 }
 #quickstart{
 
 	max-width:100%;
-	//background-color:#00c0e8;
 	background-color:#f7f8f8;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 25px;
