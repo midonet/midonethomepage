@@ -507,7 +507,7 @@ H1.section-heading::after {
 .desc, .desc-small {
 
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 5px 0 5px;
+	margin: 0 auto;
 	max-width: 940px;
 	padding: 0 0 0 0;
 	font-size:20px;
@@ -609,7 +609,6 @@ H1.section-heading::after {
 	font-family: monospace;
 	text-align: left;
 	color:#fff;
-	//background: #eeeeee;
 	background: rgba(0,0,0,0.45);
 	border-radius: 0;
 	font-size: 14px;
@@ -626,6 +625,7 @@ H1.section-heading::after {
 a {
 	text-decoration:underline;
 	color:#111;
+	margin: 0 5px 0 5px;
 }
 a.document {
 	background: url(i/icon_doc.png) no-repeat 0px 0px;;
