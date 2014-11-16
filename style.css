@@ -427,7 +427,7 @@ H1.section-heading::after {
 	font-weight: 300;
 	line-height: 41px;
 	margin-left: 70px;
-	
+
 }
 #quickstart{
 
@@ -509,7 +509,7 @@ H1.section-heading::after {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	max-width: 940px;
-	padding: 0 0px;
+	padding: 0 2px 0 2px;
 	font-size:20px;
 	line-height: 25px;
 	color: #8d8d8d;
