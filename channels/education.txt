@@ -1,6 +1,0 @@
-tYd3gLpFxEM	Flow translator Midolman code walkthrough #3		1
-e8oWE6hkeJQ	Netlink Midolman code walkthrough #7		0
-j0IGjB0A5QE	Stateful state less NAT Midolman code walkthrough #6		0
-uDKVqbuzW7g	Megaflow Midolman code walkthrough #8		0
-VxrGwai1LhQ	Interface binding between physical and virtual Midolman code walkthrough #4		0
-XKK2K1c4mI4	Flow state replicator and connection tracking Midolman code walkthrough #5		0
