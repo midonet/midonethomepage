@@ -1,0 +1,2 @@
+http://youtu.be/XKK2K1c4mI4	Flow state replicator and connection tracking   Midolman code walkthrough #5		1
+https://www.youtube.com/watch?v=4oPL1Th05C4	Midokura aligns with Dell on Open Platform for NFV		0
