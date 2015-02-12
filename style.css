@@ -108,10 +108,10 @@
 .header .download-button:hover {
 	background: #189bbc;
 }
-topbuttons {
-	position:absolute;
+topbutton {
+	position: fixed;
 	top: 5px;
-	right: 0px;
+	right: 5px;
 	text-align: center;
 	padding: 6px 10px 9px;
 }
