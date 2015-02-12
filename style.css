@@ -108,7 +108,13 @@
 .header .download-button:hover {
 	background: #189bbc;
 }
-
+topbuttons {
+	position:absolute;
+	top: 5px;
+	right: 0px;
+	text-align: center;
+	padding: 6px 10px 9px;
+}
 nav {
 	background: rgba(0,0,0,.3);
 	position: absolute;
