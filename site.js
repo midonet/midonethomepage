@@ -36,6 +36,7 @@
     };				
 
     $('.scrollto').scrollToElm(60);
+	$('.scrolltovideo').scrollToElm(140);
 
 
     $(window).scroll(function() { 
