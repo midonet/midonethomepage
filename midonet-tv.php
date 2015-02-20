@@ -20,8 +20,8 @@ $page->Queue()->addFooterJS('jquery-ui.js');
 <li><a class="scrolltovideo" href="#codew">Code Walkthroughs</a></li>
 <li><a class="scrolltovideo" href="#education">Education</a></li>
 </ul></div>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
- The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<h2 class="medium lighter">Watch and Learn from MidoNet Committers</h2>
+If you have a video you want to share with the rest of the MidoNet community,<br/><em>join MidoNet on Slack and ping </em><span class="darker">@adjohn</span> or <span class="darker">@susanwu</span>
 </div>
 
 <?php     renderVideoChannel('Demonstration Videos','demos',"demo"); ?>
