@@ -20,7 +20,7 @@ $page->Queue()->addFooterJS('jquery-ui.js');
 <li><a class="scrolltovideo" href="#codew">Code Walkthroughs</a></li>
 <li><a class="scrolltovideo" href="#education">Education</a></li>
 </ul></div>
-<h2 class="medium lighter">Watch and Learn from MidoNet Committers</h2>
+<h2 class="medium lighter">Watch and Learn from MidoNet Committers</h2><br/>
 If you have a video you want to share with the rest of the MidoNet community,<br/><em>join MidoNet on Slack and ping </em><span class="darker">@adjohn</span> or <span class="darker">@susanwu</span>
 </div>
 
