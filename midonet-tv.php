@@ -26,7 +26,7 @@ If you have a video you want to share with the rest of the MidoNet community,<br
 
 <?php     renderVideoChannel('Demonstration Videos','demos',"demo"); ?>
 <?php     renderVideoChannel('Code Walkthroughs','code-walkthroughs',"codew"); ?>
-<?php     renderVideoChannel('Educational Videos','education',"education"); ?>
+<?php     renderSlideChannel('Educational Slides','education',"education"); ?>
 
 <div id="vplayer" ></div>
 </section>

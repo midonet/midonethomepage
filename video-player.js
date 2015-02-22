@@ -47,6 +47,15 @@ jQuery( ".ui-dialog-title" ).text(jQuery(this).attr('title'));
  
   });
   
+  jQuery("img.slide-thumb").click(function () {
+	// alert(jQuery(this).attr('title'));
+	jQuery("#vframe").attr('src',jQuery(this).data('url'));
+	 jQuery("#vplayer").html('<iframe id="vframe" src="'+jQuery(this).data('url')+'" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>');
+jQuery( ".ui-dialog-title" ).text(jQuery(this).attr('title'));
+	   jQuery( "#vplayer" ).dialog( "open" );
+	   
+ 
+  });
   jQuery("a.video-play").click(function () {
 	// alert(jQuery(this).attr('title'));
 	$parent =jQuery(this).parent().parent().find("img.video-thumb");
