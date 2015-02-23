@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 Title: SlideShare  Channel class 
 Description: Provides base for maintaining Slideshare Slides
