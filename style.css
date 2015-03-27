@@ -134,7 +134,9 @@ nav a {
 	border-right: 1px solid #FFF;
 	display: inline-block;
 	line-height: 11px;
-	padding: 0 10px;
+	padding: 0 16px;
+	margin:0px;
+	padding-left:10px;
 }
 nav a:last-child {
 	border-right: none;

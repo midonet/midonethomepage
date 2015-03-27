@@ -77,7 +77,7 @@ class SlideShow {
 		return $this->featured;
 	}		
 	function getPageURL(){
-		return "https://www.youtube.com/watch?v=".$this->id;						
+		return $this->link;						
 	}
 	function getThumbUrl() {
 		return $this->thumb;
