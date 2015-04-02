@@ -45,6 +45,7 @@ $page->Queue()->addFooterJS('site.js');
       <a href="http://midonet.org/#help" class="scrollto">Help</a>
       <a href="http://midonet.org/#quickstart" class="scrollto">Quick Start</a>
        <a href="http://midonet.org/#resources" class="scrollto">Resources</a>
+	   <a href="midonet-tv.php" class="scrollto">TV</a>
     </nav>
     <h1>MidoNet</h1>
     
