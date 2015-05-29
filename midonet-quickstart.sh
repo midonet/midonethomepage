@@ -220,7 +220,9 @@ configure_puppet_manifests() {
 
 	# Most images does not have the fqdn infored via 'facter'. This line
 	# tricks the deployment using fqdn as the same value as hostname
-	\$fqdn = \$::hostname
+    if ! defined (\$::fqdn) {
+	    \$fqdn = \$::hostname
+    }
 	include midonet_openstack::role::allinone
 
 	EOF
