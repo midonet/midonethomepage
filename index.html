@@ -100,41 +100,27 @@
         </div>
         <div class="qbox">
           <p class="desc">
-            To get started with a development all-in-one environment, you can use the midostack tool, based on <a href="http://devstack.org/">Devstack</a>.  It will build and deploy OpenStack and MidoNet from the latest trunk source code.  Initially the MidoStack tool only supports Ubuntu 14.04, more distros will be supported in the near future.  If you need assistance with this tool, or deploying MidoNet in general there are <a href="#help">several options</a> to help you out.  Check out our <a href="http://wiki.midonet.org/GettingStartedMidonet">Getting Started Guide</a> if you're looking for a multi-node, stable environment setup, or more details on MidoNet.</p>
+            Try MidoNet in a few steps.
+            <br />
             <br />
             <div class="content">
-              <h2>Step 0 : Prepare Ubuntu 14.04 (Trusty)</h2>
-              <p>Currently, only Ubuntu 14.04 (Trusty) is supported by the midostack tool.
-                <ul><li>If you already have a box with Ubuntu 14.04 ready, <a href="#s1">skip to step 1</a>.</li>
-                  <li> If you would like to deploy or test on a different distribution, please try one of the <a href="http://docs.midonet.org/index.html">manual installation quickstart guides.</a></li>
-                  <li>If you would like to deploy the quickstart in a virtual machine, you can spin one up quickly using vagrant:<br/><br/>
-                    <p>i) Clone the midostack repository, containing the vagrant definition file.</p>
-                    <pre>git clone http://github.com/midonet/midostack</pre>
-                    <p>ii) Change directories to the newly cloned midostack, and create the vagrant VM.</p>
-                    <pre>cd midostack; vagrant up</pre>
-                    <p>iii) After the vagrant VM has been created, login to it.</p>
-                    <pre>vagrant ssh</pre>
-                    <br />
-
-                  </li></ul></p>
-
-                  <h2><a name="s1"></a>Step 1 : Download Midostack</h2>
-                  <p>Clone the midostack repository</p>
-                  <pre>git clone http://github.com/midonet/midostack</pre>
-                  <br />
-                  <h2>Step 2 : Run Midostack</h2>
-                  <pre>cd ./midostack</pre>
-                  <p>Time to run it, this can take awhile, so grab a coffee and come back later.</p>
-                  <pre>./midonet_stack.sh -o stable/juno</pre>
-                  <p>Check out the <a href="http://github.com/midonet/midostack">README</a> for more help on using midostack.</p>
-                  <br />
-                  <h2>Next Steps</h2>
-                  <p>Check out our <a href="http://wiki.midonet.org/GettingStartedMidonet">Getting Started Guide</a> for an overview of MidoNet with some tips on using the MidoNet Command Line Interface (CLI) along with links to more information about MidoNet details.</p>
-                </div>
-              </div>
-
-            </section>
-
+              <h2>I want to run it now!</h2>
+              <br />
+              <p>Execute this command <b>inside an Ubuntu 14.04 Virtual Machine</b> with at least 4Gb of memory (8Gb recommended)</p>
+                  <pre>$ wget -qO- https://midonet.org/midonet-quickstart.sh | sudo bash</pre>
+                  <p>This command will install a MidoNet 2015.01 with OpenStack Juno. It will give the instructions to log in into Horizon once finished.</p>
+              <br />
+              <br />
+              <h2>I prefer to deploy it by myself</h2>
+              <br />
+              <p>If you don't want to run third-party bash script code as root in your Virtual Machine, follow the <a href="http://wiki.midonet.org/MidoNet-allinone">MidoNet all-in-one tutorial</a>in MidoNet wiki.
+              <br />
+              <br />
+              <h2>Next Steps</h2>
+              <br />
+              <p>Check out our <a href="http://wiki.midonet.org/GettingStartedMidonet">Getting Started Guide</a> for an overview of MidoNet with some tips on using the MidoNet Command Line Interface (CLI) along with links to more information about MidoNet details.</p>
+            </div>
+      </section>
             <section id="contribute">
               <div>
                 <h1 class="section-heading"><a class="anchor" id="contribute">Want to Contribute?</a></h1>
