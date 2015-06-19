@@ -112,6 +112,7 @@ topbutton {
 	position: fixed;
 	top: 5px;
 	right: 5px;
+	z-index: 999;
 	text-align: center;
 	padding: 6px 10px 9px;
 }
