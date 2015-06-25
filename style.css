@@ -17,6 +17,9 @@
 	margin: 0 auto;
 	position: relative;
 }
+.wrapper * {
+    max-width: 100%;
+}
 /*SECTIONS*/
 .users {
 	width: 100%;
