@@ -592,6 +592,7 @@ H1.section-heading::after {
 	color:#3a3a3a !important;
 }
 .qbox {
+	box-sizing: border-box;
 	width:960px;
 	text-align:left;
 	margin:20px auto 10px auto;
