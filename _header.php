@@ -21,7 +21,6 @@ $page->Queue()->addFooterJS('site.js');
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="./mido.ico" type="image/x-icon">
     <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
     <?php
     $page->Queue()->renderCSS();
