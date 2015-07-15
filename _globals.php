@@ -9,61 +9,55 @@
  * @copyright 2015 midonet.org
  */
 
+/*
+|--------------------------------------------------------------------------
+| Configure PHP Settings
+|--------------------------------------------------------------------------
+|
+| First we'll configure PHP settings just a little bit to handle errors
+| more clearly.
+|
+*/
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
+/*
+|--------------------------------------------------------------------------
+| Define Global Constants
+|--------------------------------------------------------------------------
+|
+| Next we'll define some global constants so we don't have to worry so much
+| about path handling.
+|
+*/
+
+define('ROOT_PATH', __DIR__);
+
+/*
+|--------------------------------------------------------------------------
+| Load Classes
+|--------------------------------------------------------------------------
+|
+| We just need to utilize class loading. Since this is very simple website
+| we'll just going to load everything here.
+|
+*/
+
 require_once 'class.assetqueue.php';
 require_once 'class.page.php';
 require_once 'class.videochannel.php';
 require_once 'class.slideshare.php';
-$page = new Page; // initialize the page
+$page = new Page;
 
-function renderVideoChannel($title, $channel, $cssID)
-{
-    $chan = new VideoChannel($channel);
+/*
+|--------------------------------------------------------------------------
+| Load Helpers
+|--------------------------------------------------------------------------
+|
+| Load global helper functions here so it can be used anywhere in the
+| application.
+|
+*/
 
-    if ( ! $chan->size() > 0) {
-        return '';
-    }
-
-    print '<div id="'.$cssID.'" class="video-channel-container">';
-    print '<div class="video-channel-title">'.$title.'</div>';
-    print '<div class="video-channel-contents">';
-
-    foreach ($chan->listing() as $video) {
-        print '<div class="video-item-container">';
-        print '<div class="video-item">';
-        print '<img src="'.$video->getThumbURL().'" class="video-thumb" width="220" title="'.$video->getTitle().'" data-url="'.$video->getEmbedUrl().'">';
-        print '</div>';
-        print '<div class="video-item-title">'.$video->getTitle().'</div>';
-        print '</div>';
-    }
-
-    print ('<div class="clearfix"></div>');
-    print '</div>';
-    print '</div>';
-}
-
-function renderSlideChannel($title, $channel, $cssID)
-{
-    $chan = new SlideShare($channel);
-
-    if ( ! $chan->size() > 0) {
-        return '';
-    }
-
-    print '<div id="'.$cssID.'" class="video-channel-container">';
-    print '<div class="video-channel-title">'.$title.'</div>';
-    print '<div class="video-channel-contents">';
-
-    foreach($chan->listing() as $video) {
-        print '<div class="video-item-container"><div class="video-item">';
-        print '<img src="'.$video->getThumbURL().'" class="video-thumb" width="220" title="'.$video->getTitle().'" data-url="'.$video->getEmbedUrl().'">';
-        print "</div>";
-        print "<div class='video-item-title'>".$video->getTitle()."</div>";
-        print '</div>';
-    }
-
-    print ('<div class="clearfix"></div>');
-    print '</div>';
-    print '</div>';
-}
+require_once ROOT_PATH.'/_helpers.php';
