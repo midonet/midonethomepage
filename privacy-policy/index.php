@@ -35,7 +35,7 @@
       <div class="wrapper">
 
       <h2>Effective 10 June 2014</h2>
-      Midokura is strongly committed to protecting the privacy of site visitors, prospects, and customers. We will not sell your personal information to anyone. The information you give us as part of registration will be processed by Midokura and its service providers. The purpose of this policy is to explain the types of information we obtain from users through the Midokura web site (Midokura.com), how the information is obtained, how it is used, how it may be obtained by others, and how its use and disclosure can be restricted. Midokura's web site is governed by the following privacy principles:
+      Midokura is strongly committed to protecting the privacy of site visitors, prospects, and customers. We will not sell your personal information to anyone. The information you give us as part of registration will be processed by Midokura and its service providers. The purpose of this policy is to explain the types of information we obtain from users through the MidoNet web site (Midonet.org), how the information is obtained, how it is used, how it may be obtained by others, and how its use and disclosure can be restricted. Midokura's web site is governed by the following privacy principles:
 
       <h2>Principle 1: General Data Collection</h2>
       Our site automatically gathers certain anonymous traffic information, such as Internet protocol addresses and other numeric codes used to identify a computer. This information is aggregated and does not personally identify you, but it helps us improve the site and the services we offer. For example, we may use IP addresses to monitor site usage to better prepare for anticipated traffic patterns. We may also gather user information that we save on your computer (not on our server) as &ldquo;cookies&rdquo; in order to streamline the site experience.
@@ -57,7 +57,7 @@
       The personal information collected by Midokura is stored in secure operating environments that are not available to the general public. However, no data transmission over the Internet can be guaranteed to be 100% secure. Consequently, while we strive to protect your personal information, Midokura cannot ensure or warrant the security of any information you transmit to us.
 
       <h3>Do Not Track:</h3>
-      Many browsers offer a &ldquo;do not track&rdquo; (DNT) option that causes the browser to send a DNT header to Web sites visited by the user. Midokura.com does not respond to the DNT header. We reserve the right to change this Privacy Policy at any time. Any questions regarding this Privacy Policy should be directed to info@Midokura.com.
+      Many browsers offer a &ldquo;do not track&rdquo; (DNT) option that causes the browser to send a DNT header to Web sites visited by the user. Midonet.org does not respond to the DNT header. We reserve the right to change this Privacy Policy at any time. Any questions regarding this Privacy Policy should be directed to info@Midokura.com.
 
     </section>
 
