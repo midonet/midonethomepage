@@ -42,7 +42,7 @@
 .header {
 	height: 426px;
 	width: 100%;
-	background: white url(i/header.jpg) no-repeat center center;
+	background: white url("/i/header.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -59,7 +59,7 @@
 	position:fixed;
 	top:0;
 	z-index:99;
-	background: white url(i/header.jpg) no-repeat center -200px;
+	background: white url("/i/header.jpg") no-repeat center -200px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -70,7 +70,7 @@
 	height: 58px;
 	width: 238px;
 	text-indent: -999em;
-	background: url(i/logo.png) no-repeat;
+	background: url("/i/logo.png") no-repeat;
 	margin-left: 70px;
 }
 .header h2 {
@@ -169,14 +169,14 @@ nav a:hover {
 	width: 70px;
 	display: block;
 	margin: 0 auto;
-	background: url(i/icon-what-mido-does.png) no-repeat center;
+	background: url("/i/icon-what-mido-does.png") no-repeat center;
 	margin-bottom: 40px;
 }
 #mido-enables .icon {
-	background-image: url(i/icon-enables.png);
+	background-image: url("/i/icon-enables.png");
 }
 #mido-features .icon {
-	background-image: url(i/icon-features.png);
+	background-image: url("/i/icon-features.png");
 }
 
 .features div h4 {
@@ -315,7 +315,7 @@ nav a:hover {
 	text-indent: -9999px;
 	width: 90px;
 	height: 22px;
-	background: url(i/logo-footer.png);
+	background: url("/i/logo-footer.png");
 }
 .footer ul {
 	float: left;
@@ -364,14 +364,14 @@ nav a:hover {
 }
 
 .footer ul.social li.github .sicon {
-	background: url(i/social/github-32.png) no-repeat center rgba(0,0,0,0.2);
+	background: url("/i/social/github-32.png") no-repeat center rgba(0,0,0,0.2);
 }
 
 .footer ul.social li.facebook .sicon {
-	background: url(i/social/facebook-32.png) no-repeat center rgba(0,0,0,0.2);
+	background: url("/i/social/facebook-32.png") no-repeat center rgba(0,0,0,0.2);
 }
 .footer ul.social li.twitter .sicon {
-	background: url(i/social/twitter-32.png) no-repeat center rgba(0,0,0,0.2);
+	background: url("/i/social/twitter-32.png") no-repeat center rgba(0,0,0,0.2);
 }
 
 .case-studies .slidesjs-slide {
@@ -412,7 +412,7 @@ H1.section-heading::after {
 	letter-spacing: 2.5px;
 	padding-bottom: 4px;
 	margin-bottom: 16px;
-	
+
 }
 
 
@@ -449,7 +449,7 @@ H1.section-heading::after {
 	line-height: 25px;
 	padding:16px 0px 32px 0px;
 	color: #000;
-	
+
 
 }
 #quickstart h1,#quickstart h1 a{
@@ -489,7 +489,7 @@ H1.section-heading::after {
 #quickstart ul {
 	margin:8px 0px 0px 32px;
 	list-style-type:disc;
-} 
+}
 
 #quickstart div.gbox{
 	width:960px;
@@ -720,7 +720,7 @@ ul.dlinks li a:hover{
 
 .guide-link{
 	margin-top:40px;
-} 
+}
 
 
 
@@ -728,7 +728,7 @@ ul.dlinks li a:hover{
 
 .medium{
 font-size:24px !important;
-} 
+}
 
 .small{
 font-size:18px !important;

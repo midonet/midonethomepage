@@ -25,7 +25,7 @@
 </section>
 
 <div id="toTop">
-  <a href="#header" id="scrollToTop"><img src="i/back-to-top.png" border=0></a>
+  <a href="#header" id="scrollToTop"><img src="/i/back-to-top.png" border=0></a>
 </div>
 
 <!--JS-->

@@ -13,8 +13,8 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
   </head>
 
@@ -448,9 +448,9 @@
     <!--JS-->
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="jquery.slides.min.js"></script>
-    <script src="jquery.easing.min.js"></script>
-    <script src="site.js"></script>
+    <script src="/js/jquery.slides.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/site.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

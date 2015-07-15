@@ -2,13 +2,13 @@
 require_once '../_globals.php';
 
 $page = new Page('Midonet TV', 'View and Learn More about Midonet, Demonstrations, Cold Walkthroughs.');
-$page->Queue()->addCSS('/video-channel.css');
-$page->Queue()->addCSS('/jquery-ui-midokura.css');
+$page->Queue()->addCSS('/css/video-channel.css');
+$page->Queue()->addCSS('/css/jquery-ui-midokura.css');
 
 /* Start Page Structure ----------------------------------------------------------- */
 include '../_header.php';
-$page->Queue()->addFooterJS('/video-player.js');
-$page->Queue()->addFooterJS('/jquery-ui.js');
+$page->Queue()->addFooterJS('/js/video-player.js');
+$page->Queue()->addFooterJS('/js/jquery-ui.js');
 
 /* Start Page Body Content -------------------------------------------------------- */
 ?>
