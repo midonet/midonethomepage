@@ -34,14 +34,14 @@
           <a href="http://blog.midonet.org">Blog</a>
           <a href="http://wiki.midonet.org">Wiki</a>
           <a href="http://docs.midonet.org">Docs</a>
-          <a href="midonet-tv.php">TV</a>
+          <a href="/midonet-tv">TV</a>
           <a href="http://planet.midonet.org">Planet</a>
         </nav>
         <h1>MidoNet</h1>
         <h2>Open-source network virtualization</h2>
         <h3>MidoNet is an Apache licensed production grade network virtualization software for Infrastructure-as-a-Service (IaaS) clouds.</h3>
         <a href="#quickstart" class="download-button">Get Started in Minutes</a>
-        <a href="midonet-tv.php" class="download-button">Watch Videos</a>
+        <a href="/midonet-tv" class="download-button">Watch Videos</a>
       </div><!--END WRAPPER-->
     </section>
 
@@ -422,7 +422,7 @@
                   <p><a href="https://review.gerrithub.io/#/q/project:midonet/midonet"><strong>Code Reviews - </strong>On Gerrithub</a></p>
                 </li>
                 <li>
-                  <p><a href="midonet-tv.php"><strong>Videos & Presentations </strong>on MidoNet TV</a></p>
+                  <p><a href="/midonet-tv"><strong>Videos & Presentations </strong>on MidoNet TV</a></p>
                 </li>
               </ul>
             </div>
