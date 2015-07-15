@@ -1,14 +1,14 @@
 <?php
 require_once('_globals.php');
 
-$page->Queue()->addCSS('reset.css');
+$page->Queue()->addCSS('/reset.css');
 $page->Queue()->addCSS('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-$page->Queue()->addCSS('style.css');
+$page->Queue()->addCSS('/style.css');
 
 $page->Queue()->addFooterJS('http://code.jquery.com/jquery-latest.min.js');
-$page->Queue()->addFooterJS('jquery.slides.min.js');
-$page->Queue()->addFooterJS('jquery.easing.min.js');
-$page->Queue()->addFooterJS('site.js');
+$page->Queue()->addFooterJS('/jquery.slides.min.js');
+$page->Queue()->addFooterJS('/jquery.easing.min.js');
+$page->Queue()->addFooterJS('/site.js');
 ?>
 <!DOCTYPE html>
 <html lang="en">
