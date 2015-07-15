@@ -18,10 +18,10 @@ $page->Queue()->addFooterJS('site.js');
     <title>MidoNet TV</title>
     <meta name="description" content="View and Learn More about Midonet, Demonstrations, Cold Walkthroughs.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="./mido.ico" type="image/x-icon">
     <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
     <?php
     $page->Queue()->renderCSS();
