@@ -1,10 +1,10 @@
 # midonet.org
 
-This is the official website of [midonet.org](http://www.midonet.org).
+This is the official website of [MidoNet](http://www.midonet.org).
 
 ## Production Server Environment
 
-Production server is running **Apache HTTP Server 2.22** with **PHP 5.3.10**.
+Production server is running **Apache HTTP Server 2.2.22** with **PHP 5.3.10** on **Ubuntu 12.04.1 LTS**.
 
 ## Contribution Guide
 
