@@ -45,7 +45,7 @@ define('APP_PATH', __DIR__);
 |
 */
 
-require_once APP_PATH.'/Lib/Assetqueue.php';
+require_once APP_PATH.'/Lib/AssetQueue.php';
 require_once APP_PATH.'/Lib/Page.php';
 require_once APP_PATH.'/Lib/Video.php';
 require_once APP_PATH.'/Lib/VideoChannel.php';
