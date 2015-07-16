@@ -1,14 +1,14 @@
 <?php
 require_once('_globals.php');
 
-$page->Queue()->addCSS('reset.css');
+$page->Queue()->addCSS('/css/reset.css');
 $page->Queue()->addCSS('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-$page->Queue()->addCSS('style.css');
+$page->Queue()->addCSS('/css/style.css');
 
 $page->Queue()->addFooterJS('http://code.jquery.com/jquery-latest.min.js');
-$page->Queue()->addFooterJS('jquery.slides.min.js');
-$page->Queue()->addFooterJS('jquery.easing.min.js');
-$page->Queue()->addFooterJS('site.js');
+$page->Queue()->addFooterJS('/js/jquery.slides.min.js');
+$page->Queue()->addFooterJS('/js/jquery.easing.min.js');
+$page->Queue()->addFooterJS('/js/site.js');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@ $page->Queue()->addFooterJS('site.js');
       <a href="http://midonet.org/#help" class="scrollto">Help</a>
       <a href="http://midonet.org/#quickstart" class="scrollto">Quick Start</a>
       <a href="http://midonet.org/#resources" class="scrollto">Resources</a>
-      <a href="midonet-tv.php" class="scrollto">TV</a>
+      <a href="/midonet-tv" class="scrollto">TV</a>
     </nav>
     <h1>MidoNet</h1>
   </div><!--END WRAPPER-->

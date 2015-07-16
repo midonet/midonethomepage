@@ -3,11 +3,12 @@
     <div class="top clearfix">
       <span class="logo">Midonet</span>
       &copy; 2011 - 2015
-      <a href="http://www.midonet.org/trademark-policy.html">Trademark Policy</a>
-      <a href="http://www.midonet.org/privacy-policy.html">Privacy Policy</a>
+      <a href="/trademark-policy">Trademark Policy</a>
+      <a href="/privacy-policy">Privacy Policy</a>
     </div>
     <ul>
       <li><a href="http://wiki.midonet.org">Midonet Wiki</a></li>
+      <li><a href="http://blog.midonet.org">MidoNet Blog</a></li>
       <li><a href="http://midonet.org/#help">Get Help</a></li>
       <li><a href="http://eepurl.com/65TFr">Get the Newsletter</a></li>
     </ul>
@@ -24,12 +25,9 @@
 </section>
 
 <div id="toTop">
-  <a href="#header" id="scrollToTop"><img src="i/back-to-top.png" title="Go To Top" border=0></a>
+  <a href="#header" id="scrollToTop"><img src="/i/back-to-top.png" border=0></a>
 </div>
 
 <!--JS-->
 
 <?php $page->Queue()->renderFooterJS(); ?>
-
-</body>
-</html>

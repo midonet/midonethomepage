@@ -1,3 +1,4 @@
+<?php require_once '../_globals.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +13,8 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
   </head>
 
@@ -21,17 +22,17 @@
     <section class="alt-header">
       <div class="wrapper">
         <nav>
-         <a href="http://midonet.org">Home</a>
-         <a href="http://wiki.midonet.org">Wiki</a>
-         <a href="http://docs.midonet.org">Docs</a>
-       </nav>
-       <h1>Midonet</h1>
-     </div><!--END WRAPPER-->
-   </section>
+          <a href="http://midonet.org">Home</a>
+          <a href="http://wiki.midonet.org">Wiki</a>
+          <a href="http://docs.midonet.org">Docs</a>
+        </nav>
+        <h1>Midonet</h1>
+      </div><!--END WRAPPER-->
+    </section>
 
-   <section id="policies" class="clearfix">
-    <h1 class="section-heading">Privacy Policy</h1>
-    <div class="wrapper">
+    <section id="policies" class="clearfix">
+      <h1 class="section-heading">Privacy Policy</h1>
+      <div class="wrapper">
 
       <h2>Effective 10 June 2014</h2>
       Midokura is strongly committed to protecting the privacy of site visitors, prospects, and customers. We will not sell your personal information to anyone. The information you give us as part of registration will be processed by Midokura and its service providers. The purpose of this policy is to explain the types of information we obtain from users through the MidoNet web site (Midonet.org), how the information is obtained, how it is used, how it may be obtained by others, and how its use and disclosure can be restricted. Midokura's web site is governed by the following privacy principles:
@@ -60,43 +61,14 @@
 
     </section>
 
-    <section class="footer">
-      <div class="wrapper clearfix">
-        <div class="top clearfix">
-          <span class="logo">Midonet</span>
-          &copy; 2011 - 2014
-          <a href="trademark-policy.html">Trademark Policy</a>
-          <a href="privacy-policy.html">Privacy Policy</a>
-        </div>
-        <ul>
-          <li><a href="http://wiki.midonet.org">Midonet Wiki</a></li>
-          <li><a href="http://midonet.org/#help">Get Help</a></li>
-          <li><a href="http://eepurl.com/65TFr">Get the Newsletter</a></li>
-        </ul>
-        <ul>
-          <li><a href="http://midokura.com">Sponsored by Midokura</a></li>
-          <li><a href="http://docs.midonet.org">Documentation</a></li>
-          <li><a href="http://docs.midonet.org/docs/v1.8/rest-api/api/rest-api-specification.html">&nbsp;- API Specification</a></li>
-          <li><a href="http://docs.midonet.org/docs/v1.8/quick-start-guide/rhel-7_icehouse/content/index.html">&nbsp;- QuickStart on RHEL/CentOS</a></li>
-          <li><a href="http://docs.midonet.org/docs/v1.8/quick-start-guide/ubuntu-1404_icehouse/content/index.html">&nbsp;- QuickStart on Ubuntu</a></li>
-        </ul>
-        <ul class="social">
-          <li class="twitter"><a href="http://twitter.com/midonet">@midonet</a></li>
-          <li class="github"><a href="http://www.github.com/midonet">github.com/midonet</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <div id="toTop">
-      <a href="#header" id="scrollToTop"><img src="i/back-to-top.png" border=0></a>
-    </div>
+    <?php include '../_footer.php'; ?>
 
     <!--JS-->
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="jquery.slides.min.js"></script>
-    <script src="jquery.easing.min.js"></script>
-    <script src="site.js"></script>
+    <script src="/js/jquery.slides.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/site.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
