@@ -32,7 +32,7 @@
           <a href="#quickstart" class="scrollto">Quick Start</a>
           <a href="#resources" class="scrollto">Resources</a>
           <a href="http://blog.midonet.org">Blog</a>
-          <a href="http://wiki.midonet.org">Wiki</a>
+          <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
           <a href="http://docs.midonet.org">Docs</a>
           <a href="/midonet-tv">TV</a>
           <a href="http://planet.midonet.org">Planet</a>
@@ -124,13 +124,13 @@
             <h2>I prefer to deploy it by myself</h2>
             <br>
             <p>
-              If you don't want to run third-party bash script code as root in your Virtual Machine, follow the <a href="http://wiki.midonet.org/MidoNet-allinone">MidoNet all-in-one tutorial</a>in MidoNet wiki.
+              If you don't want to run third-party bash script code as root in your Virtual Machine, follow the <a href="https://github.com/midonet/midonet/wiki/OpenStack-All-in-One">MidoNet all-in-one tutorial</a>in MidoNet wiki.
             </p>
             <br>
             <br>
             <h2>Next Steps</h2>
             <br>
-            <p>Check out our <a href="http://wiki.midonet.org/GettingStartedMidonet">Getting Started Guide</a> for an overview of MidoNet with some tips on using the MidoNet Command Line Interface (CLI) along with links to more information about MidoNet details.</p>
+            <p>Check out our <a href="https://github.com/midonet/midonet/wiki/Getting-Started-with-MidoNet">Getting Started Guide</a> for an overview of MidoNet with some tips on using the MidoNet Command Line Interface (CLI) along with links to more information about MidoNet details.</p>
           </div>
         </p>
       </div>
@@ -140,7 +140,7 @@
       <div>
         <h1 class="section-heading"><a class="anchor" id="help">Getting Help</a></h1>
         <p class="desc">
-          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="http://docs.midonet.org">documentation</a>, a growing&nbsp;<a href="http://wiki.midonet.org">wiki</a>, and a few other resources which you can find links to below
+          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="http://docs.midonet.org">documentation</a>, a growing&nbsp;<a href="https://github.com/midonet/midonet/wiki">wiki</a>, and a few other resources which you can find links to below
         </p>
       </div>
       <div class="clearfix gbox">
@@ -187,7 +187,7 @@
         <div class="clearfix">
           <div class="col-one-third">
             <div class="align-center">
-              <a href="http://github.com/midonet"><img src="i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="http://github.com/midonet">github.com/midonet</a>
+              <a href="https://github.com/midonet"><img src="i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/midonet">github.com/midonet</a>
             </div>
           </div>
           <div class="col-one-third">
@@ -204,7 +204,7 @@
           </div>
         </div>
         <div class="guide-link">
-          <a class="document" href="http://wiki.midonet.org/How%20to%20contribute" target="_self">View Complete Contribution Guide</a>
+          <a class="document" href="https://github.com/midonet/midonet/wiki/Contributing-to-MidoNet" target="_self">View Complete Contribution Guide</a>
         </div>
       </div>
     </section>
@@ -212,7 +212,7 @@
     <section class="members intro">
       <div class="intro">
         <br>
-        <p>MidoNet is committed to being a truly open community. The project idea originated from the team at Midokura, whom released the code into the wild in November of 2014 under the Apache license. We have a thriving community of users and contributors to the MidoNet project. Want to join the community? Check our guide on <a href="http://wiki.midonet.org/How%20to%20contribute">how to contribute</a></p>
+        <p>MidoNet is committed to being a truly open community. The project idea originated from the team at Midokura, whom released the code into the wild in November of 2014 under the Apache license. We have a thriving community of users and contributors to the MidoNet project. Want to join the community? Check our guide on <a href="https://github.com/midonet/midonet/wiki/Contributing-to-MidoNet">how to contribute</a></p>
       </div>
     </section>
 
@@ -404,10 +404,10 @@
                   <p><a href="http://docs.midonet.org"><strong>MidoNet Docs - </strong> http://docs.midonet.org</a></p>
                 </li>
                 <li>
-                  <p><a href="http://github.com/midonet"><strong>Source Code - </strong> http://github.com/midonet</a></p>
+                  <p><a href="https://github.com/midonet"><strong>Source Code - </strong> https://github.com/midonet</a></p>
                 </li>
                 <li>
-                  <p><a href="http://wiki.midonet.org"><strong>MidoNet Wiki - </strong>http://wiki.midonet.org</a></p>
+                  <p><a href="https://github.com/midonet/midonet/wiki"><strong>MidoNet Wiki - </strong>https://github.com/midonet/midonet/wiki</a></p>
                 </li>
                 <li>
                   <p><a href="http://lists.midonet.org"><strong>Mailing Lists - </strong> http://lists.midonet.org</a></p>
@@ -435,7 +435,7 @@
               </div>
               <ul class="dlinks">
                 <li><a href="http://repo.midonet.org"><strong>Package Repositories  - </strong>http://repo.midonet.org</a></li>
-                <li><a href="https://github.com/midonet/midonet/archive/master.zip"><strong>Source&nbsp;Code&nbsp;zip - </strong>http://github.com/midonet/...</a></li>
+                <li><a href="https://github.com/midonet/midonet/archive/master.zip"><strong>Source&nbsp;Code&nbsp;zip - </strong>https://github.com/midonet/...</a></li>
               </ul>
             </div>
           </div>
