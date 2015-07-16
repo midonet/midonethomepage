@@ -7,7 +7,7 @@
       <a href="/privacy-policy">Privacy Policy</a>
     </div>
     <ul>
-      <li><a href="http://wiki.midonet.org">Midonet Wiki</a></li>
+      <li><a href="https://github.com/midonet/midonet/wiki">Midonet Wiki</a></li>
       <li><a href="http://blog.midonet.org">MidoNet Blog</a></li>
       <li><a href="http://midonet.org/#help">Get Help</a></li>
       <li><a href="http://eepurl.com/65TFr">Get the Newsletter</a></li>
