@@ -1,6 +1,6 @@
 <?php
 /**
- * Video Channel class and video class.
+ * Video Channel class.
  *
  * Provides base for maintaining youtube videos. Uses a Tab delimited text file
  * in channels directory with a text file for each channel in the format
@@ -22,7 +22,7 @@ class VideoChannel
 
     public function VideoChannel($channel)
     {
-        $filename = __DIR__.'/channels/'.$channel.'.txt';
+        $filename = ROOT_PATH.'/channels/'.$channel.'.txt';
 
         if ( ! file_exists ($filename)) {
             die('Channel ' .$channel.' Does not exist!!');
@@ -50,57 +50,5 @@ class VideoChannel
         }
 
         return $varr;
-    }
-}
-
-class Video
-{
-    protected $id = '';
-    protected $title = '';
-    protected $description = '';
-    protected $featured = false;
-
-    public function Video($id, $title, $description, $featured = fals
-        )
-    {
-        $this->id = $id;
-        $this->title = $title;
-        $this->description = $description;
-        $this->featured = $featured;
-    }
-
-    public function getID()
-    {
-        return $this->id;
-    }
-
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    public function isFeatured()
-    {
-        return $this->featured;
-    }
-
-    public function getYouTubeURL()
-    {
-        return 'https://www.youtube.com/watch?v='.$this->id;
-    }
-
-    public function getThumbUrl()
-    {
-        return 'http://img.youtube.com/vi/'.$this->id.'/mqdefault.jpg';
-    }
-
-    public function getEmbedUrl()
-    {
-        return 'https://www.youtube.com/embed/'.$this->id;
     }
 }

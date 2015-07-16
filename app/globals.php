@@ -32,7 +32,8 @@ ini_set('display_errors', 1);
 |
 */
 
-define('ROOT_PATH', __DIR__);
+define('ROOT_PATH', __DIR__.'/..');
+define('APP_PATH', __DIR__);
 
 /*
 |--------------------------------------------------------------------------
@@ -44,10 +45,12 @@ define('ROOT_PATH', __DIR__);
 |
 */
 
-require_once 'class.assetqueue.php';
-require_once 'class.page.php';
-require_once 'class.videochannel.php';
-require_once 'class.slideshare.php';
+require_once APP_PATH.'/Lib/Assetqueue.php';
+require_once APP_PATH.'/Lib/Page.php';
+require_once APP_PATH.'/Lib/Video.php';
+require_once APP_PATH.'/Lib/VideoChannel.php';
+require_once APP_PATH.'/Lib/SlideShow.php';
+require_once APP_PATH.'/Lib/SlideShare.php';
 $page = new Page;
 
 /*
@@ -60,4 +63,4 @@ $page = new Page;
 |
 */
 
-require_once ROOT_PATH.'/_helpers.php';
+require_once APP_PATH.'/helpers.php';

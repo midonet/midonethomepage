@@ -1,12 +1,12 @@
 <?php
-require_once '../_globals.php';
+require_once '../app/globals.php';
 
 $page = new Page('Midonet TV', 'View and Learn More about Midonet, Demonstrations, Cold Walkthroughs.');
 $page->Queue()->addCSS('/css/video-channel.css');
 $page->Queue()->addCSS('/css/jquery-ui-midokura.css');
 
 /* Start Page Structure ----------------------------------------------------------- */
-include '../_header.php';
+include ROOT_PATH.'/partials/header.php';
 $page->Queue()->addFooterJS('/js/video-player.js');
 $page->Queue()->addFooterJS('/js/jquery-ui.js');
 
@@ -37,7 +37,7 @@ $page->Queue()->addFooterJS('/js/jquery-ui.js');
   <div id="vplayer"></div>
 </section>
 
-<?php include '../_footer.php'; ?>
+<?php include ROOT_PATH.'/partials/footer.php'; ?>
 
 </body>
 </html>

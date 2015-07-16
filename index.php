@@ -1,4 +1,4 @@
-<?php require_once '_globals.php'; ?>
+<?php require_once 'app/globals.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -443,7 +443,7 @@
       </div>
     </section>
 
-    <?php include '_footer.php'; ?>
+    <?php include ROOT_PATH.'/partials/footer.php'; ?>
 
     <!--JS-->
 
