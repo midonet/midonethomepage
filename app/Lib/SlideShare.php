@@ -21,7 +21,7 @@ class SlideShare {
 
 	public function SlideShare($channel)
     {
-        $filename = __DIR__.'/channels/'.$channel.'.sxt';
+        $filename = ROOT_PATH.'/channels/'.$channel.'.sxt';
 
         if ( ! file_exists ($filename)) {
             die('Channel ' .$channel.' Does not exist!!');

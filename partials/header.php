@@ -1,6 +1,4 @@
 <?php
-require_once('_globals.php');
-
 $page->Queue()->addCSS('/css/reset.css');
 $page->Queue()->addCSS('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 $page->Queue()->addCSS('/css/style.css');

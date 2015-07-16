@@ -22,7 +22,7 @@ class VideoChannel
 
     public function VideoChannel($channel)
     {
-        $filename = __DIR__.'/channels/'.$channel.'.txt';
+        $filename = ROOT_PATH.'/channels/'.$channel.'.txt';
 
         if ( ! file_exists ($filename)) {
             die('Channel ' .$channel.' Does not exist!!');
