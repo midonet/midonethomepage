@@ -14,12 +14,13 @@
  * @copyright 2015 midonet.org
  */
 
-class SlideShare {
-    protected $count=0;
-    protected $counter=0;
+class SlideShare
+{
+    protected $count = 0;
+    protected $counter = 0;
     protected $fp;
 
-	public function SlideShare($channel)
+    public function SlideShare($channel)
     {
         $filename = ROOT_PATH.'/channels/'.$channel.'.sxt';
 
@@ -31,74 +32,22 @@ class SlideShare {
         $this->count = count($this->fp);
     }
 
-	public function size()
-	{
-		return $this->count;
-	}
+    public function size()
+    {
+        return $this->count;
+    }
 
     // Returns an array of videos.
-	public function listing()
+    public function listing()
     {
         $varr = array();
 
         for ($i = 0; $i < $this->count; $i++) {
-			$row = explode("\t", $this->fp[$i]);
+            $row = explode("\t", $this->fp[$i]);
             $video = new SlideShow($row[0], $row[1], $row[2], $row[3]);
             $varr[] = $video;
         }
 
         return $varr;
     }
-}
-
-class SlideShow
-{
-    protected $id = '';
-    protected $title = '';
-    protected $thumb = '';
-    protected $link = '';
-    protected $featured = false;
-
-    public function SlideShow($id, $title, $thumb, $link)
-    {
-        $this->id = $id;
-        $this->title = $title;
-        $this->thumb = $thumb;
-        $this->link = $link;
-    }
-
-    public function getID()
-    {
-        return $this->id;
-    }
-
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    public function isFeatured()
-    {
-        return $this->featured;
-    }
-
-    public function getPageURL()
-    {
-        return $this->link;
-    }
-
-    public function getThumbUrl()
-    {
-        return $this->thumb;
-    }
-
-	public function getEmbedUrl()
-    {
-		return '//www.slideshare.net/slideshow/embed_code/'.$this->id;
-	}
 }
