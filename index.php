@@ -161,8 +161,7 @@
             <h3><strong>Slack Chat</strong></h3>
             <p>Documentation doesn&rsquo;t always cover every situation, and conversation is often the best option. &nbsp;Community members are usually around to provide assistance and answer questions. Don&rsquo;t forget to thank the helpful community volunteers for providing this service!</p>
             <br>
-            <a href="http://slack.midonet.org">Slack Chat</a>
-            <strong><br></strong>
+            <p><strong><a href="http://slack.midonet.org">Slack Chat</a></strong></p>
           </div>
         </div>
         <div class="col-one-third">
