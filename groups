@@ -1,5 +1,7 @@
 # UUID                                  	Group Name
 #
 c64c8b7b0d71784704261d4ce2de2704a1c7a3bc	midonet-admins
+global:Anonymous-Users                  	Anonymous Users
+global:Registered-Users                 	Registered Users
 user:adjohn                             	user/Adam Johnson (adjohn)
 user:red-trela                          	user/Sandro Mathys (red-trela)
