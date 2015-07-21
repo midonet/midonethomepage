@@ -7,7 +7,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>MidoNet - Terms & Conditions</title>
     <meta name="description" content="The MidoNet name and logo are property of Midokura SARL. To request permission to use the MidoNet name or logo, please email info@midokura.com.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
