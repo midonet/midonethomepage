@@ -641,7 +641,7 @@ a {
 	margin: 0 5px 0 5px;
 }
 a.document {
-	background: url(i/icon_doc.png) no-repeat 0px 0px;;
+	background: url(/i/icon_doc.png) no-repeat 0px 0px;;
 	padding-left:56px;
 	height:50px;
 	display:inline-block;
@@ -688,7 +688,7 @@ a.document {
 
 ul.rlinks li {
 
-	background: url(i/icon_doc_16.png) no-repeat 0px 2px;
+	background: url(/i/icon_doc_16.png) no-repeat 0px 2px;
 	padding-left:24px;
 	text-align:left;
 }
@@ -706,7 +706,7 @@ ul.dlinks {
 
 ul.dlinks li {
 
-	background: url(i/icon_save.png) no-repeat 0px 2px;
+	background: url(/i/icon_save.png) no-repeat 0px 2px;
 	padding-left:24px;
 	text-align:left;
 
