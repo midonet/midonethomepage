@@ -64,7 +64,7 @@
 
     <!--JS-->
 
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="/js/jquery.slides.min.js"></script>
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/site.js"></script>

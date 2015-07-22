@@ -3,7 +3,7 @@ $page->Queue()->addCSS('/css/reset.css');
 $page->Queue()->addCSS('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 $page->Queue()->addCSS('/css/style.css');
 
-$page->Queue()->addFooterJS('http://code.jquery.com/jquery-latest.min.js');
+$page->Queue()->addFooterJS('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
 $page->Queue()->addFooterJS('/js/jquery.slides.min.js');
 $page->Queue()->addFooterJS('/js/jquery.easing.min.js');
 $page->Queue()->addFooterJS('/js/site.js');
