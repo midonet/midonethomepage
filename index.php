@@ -21,7 +21,7 @@
 
     <section class="header">
       <topbutton>
-        <script async defer src="http://slack.midonet.org/slackin.js"></script>
+        <script async defer src="https://slack.midonet.org/slackin.js"></script>
         <a class="github-button" href="https://github.com/midonet/midonet" data-count-href="/midonet/midonet/stargazers" data-count-api="/repos/midonet/midonet#stargazers_count">Star</a>
         <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
       </topbutton>
@@ -34,7 +34,7 @@
           <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
           <a href="http://docs.midonet.org">Docs</a>
           <a href="/midonet-tv">TV</a>
-          <a href="http://planet.midonet.org">Planet</a>
+          <a href="https://planet.midonet.org">Planet</a>
         </nav>
         <h1>MidoNet</h1>
         <h2>Open-source network virtualization</h2>
@@ -160,7 +160,7 @@
             <h3><strong>Slack Chat</strong></h3>
             <p>Documentation doesn&rsquo;t always cover every situation, and conversation is often the best option. &nbsp;Community members are usually around to provide assistance and answer questions. Don&rsquo;t forget to thank the helpful community volunteers for providing this service!</p>
             <br>
-            <p><strong><a href="http://slack.midonet.org">Slack Chat</a></strong></p>
+            <p><strong><a href="https://slack.midonet.org">Slack Chat</a></strong></p>
           </div>
         </div>
         <div class="col-one-third">
@@ -190,7 +190,7 @@
           </div>
           <div class="col-one-third">
             <div class="align-center">
-              <a href="http://slack.midonet.org"><img src="i/chat.png" border="0">MidoNet Slack Community</a>
+              <a href="https://slack.midonet.org"><img src="i/chat.png" border="0">MidoNet Slack Community</a>
               <strong><br></strong>
             </div>
           </div>
