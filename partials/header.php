@@ -17,7 +17,7 @@ $page->Queue()->addFooterJS('/js/site.js');
     <meta name="description" content="View and Learn More about Midonet, Demonstrations, Cold Walkthroughs.">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
     <?php

@@ -9,7 +9,7 @@
     <meta name="description" content="The MidoNet name and logo are property of Midokura SARL. To request permission to use the MidoNet name or logo, please email info@midokura.com.">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <link rel="stylesheet" href="/css/reset.css">
