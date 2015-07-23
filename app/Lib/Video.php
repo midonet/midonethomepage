@@ -56,7 +56,7 @@ class Video
 
     public function getThumbUrl()
     {
-        return 'http://img.youtube.com/vi/'.$this->id.'/mqdefault.jpg';
+        return 'https://img.youtube.com/vi/'.$this->id.'/mqdefault.jpg';
     }
 
     public function getEmbedUrl()

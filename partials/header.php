@@ -1,6 +1,6 @@
 <?php
 $page->Queue()->addCSS('/css/reset.css');
-$page->Queue()->addCSS('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+$page->Queue()->addCSS('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 $page->Queue()->addCSS('/css/style.css');
 
 $page->Queue()->addFooterJS('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
@@ -19,7 +19,7 @@ $page->Queue()->addFooterJS('/js/site.js');
     <!--[if IE]>
       <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
+    <script src="https://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
     <?php
     $page->Queue()->renderCSS();
     $page->Queue()->renderJS();
@@ -38,12 +38,12 @@ $page->Queue()->addFooterJS('/js/site.js');
 <section class="alt-header">
   <div class="wrapper">
     <nav>
-      <a href="http://midonet.org">Home</a>
+      <a href="https://www.midonet.org">Home</a>
       <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
       <a href="http://docs.midonet.org">Documentation</a>
-      <a href="http://midonet.org/#help" class="scrollto">Help</a>
-      <a href="http://midonet.org/#quickstart" class="scrollto">Quick Start</a>
-      <a href="http://midonet.org/#resources" class="scrollto">Resources</a>
+      <a href="https://www.midonet.org/#help" class="scrollto">Help</a>
+      <a href="https://www.midonet.org/#quickstart" class="scrollto">Quick Start</a>
+      <a href="https://www.midonet.org/#resources" class="scrollto">Resources</a>
       <a href="/midonet-tv" class="scrollto">TV</a>
     </nav>
     <h1>MidoNet</h1>

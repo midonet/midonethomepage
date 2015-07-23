@@ -1,6 +1,6 @@
 # midonet.org
 
-This is the official website of [MidoNet](http://www.midonet.org).
+This is the official website of [MidoNet](https://www.midonet.org).
 
 ## Production Server Environment
 
@@ -24,4 +24,4 @@ These files were renamed to `index.php` and moved to corresponding folder (ex. `
 
 ## Community
 
-There's [Slack channel](http://slack.midonet.org) waiting for you to join on live communication with other developers.
+There's [Slack channel](https://slack.midonet.org) waiting for you to join on live communication with other developers.

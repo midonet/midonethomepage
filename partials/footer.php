@@ -9,7 +9,7 @@
     <ul>
       <li><a href="https://github.com/midonet/midonet/wiki">Midonet Wiki</a></li>
       <li><a href="http://blog.midonet.org">MidoNet Blog</a></li>
-      <li><a href="http://midonet.org/#help">Get Help</a></li>
+      <li><a href="https://www.midonet.org/#help">Get Help</a></li>
       <li><a href="http://eepurl.com/65TFr">Get the Newsletter</a></li>
     </ul>
     <ul>
@@ -18,8 +18,8 @@
       <li><a href="http://docs.midonet.org/docs/latest/rest-api/">API Specification</a></li>
     </ul>
     <ul class="social">
-      <li class="twitter"><a href="http://twitter.com/midonet">@midonet</a></li>
-      <li class="github"><a href="http://www.github.com/midonet">github.com/midonet</a></li>
+      <li class="twitter"><a href="https://twitter.com/midonet">@midonet</a></li>
+      <li class="github"><a href="https://www.github.com/midonet">github.com/midonet</a></li>
     </ul>
   </div>
 </section>

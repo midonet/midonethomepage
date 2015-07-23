@@ -11,19 +11,19 @@
     <!--[if IE]>
       <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
-    <script src="http://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
+    <script src="https://j.wovn.io/0" data-wovnio="key=EVJIv"></script>
   </head>
 
   <body>
     <section class="alt-header">
       <div class="wrapper">
         <nav>
-          <a href="http://midonet.org">Home</a>
+          <a href="https://www.midonet.org">Home</a>
           <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
-          <a href="http://docs.midonet.org">Docs</a>
+          <a href="https://docs.midonet.org">Docs</a>
         </nav>
         <h1>Midonet</h1>
       </div><!--END WRAPPER-->

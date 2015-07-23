@@ -116,7 +116,7 @@
             <h2>I want to run it now!</h2>
             <br>
             <p>Execute this command <b>inside an Ubuntu 14.04 Virtual Machine</b> with at least 4Gb of memory (8Gb recommended)</p>
-            <pre>$ wget -qO- http://midonet.org/midonet-quickstart.sh | sudo bash</pre>
+            <pre>$ wget -qO- https://midonet.org/midonet-quickstart.sh | sudo bash</pre>
             <p>This command will install a MidoNet 2015.01 with OpenStack Juno. It will give the instructions to log in into Horizon once finished.</p>
             <br>
             <br>
@@ -173,7 +173,7 @@
             <br>
             <br>
             <br>
-            <p><strong><a href="http://lists.midonet.org">Sign up for the mailing lists</a></strong></p>
+            <p><strong><a href="https://lists.midonet.org">Sign up for the mailing lists</a></strong></p>
           </div>
         </div>
       </div>
@@ -396,7 +396,7 @@
                   <p><a href="http://blog.midonet.org"><strong>MidoNet Blog -</strong> http://blog.midonet.org</a></p>
                 </li>
                 <li>
-                  <p><a href="http://midonet.org/#downloads"><strong>Downloads - </strong>http://midonet.org/#downloads</a></p>
+                  <p><a href="https://www.midonet.org/#downloads"><strong>Downloads - </strong>https://midonet.org/#downloads</a></p>
                 </li>
                 <li>
                   <p><a href="http://docs.midonet.org"><strong>MidoNet Docs - </strong> http://docs.midonet.org</a></p>
@@ -408,7 +408,7 @@
                   <p><a href="https://github.com/midonet/midonet/wiki"><strong>MidoNet Wiki - </strong>https://github.com/midonet/midonet/wiki</a></p>
                 </li>
                 <li>
-                  <p><a href="http://lists.midonet.org"><strong>Mailing Lists - </strong> http://lists.midonet.org</a></p>
+                  <p><a href="https://lists.midonet.org"><strong>Mailing Lists - </strong> https://lists.midonet.org</a></p>
                 </li>
                 <li>
                   <p><a href="https://stackoverflow.com/questions/tagged/midonet"><strong>Ask - </strong>On StackOverflow</a></p>
