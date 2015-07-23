@@ -99,7 +99,7 @@
 
     <section class="large-graphic">
       <div class="wrapper">
-        <img src="i/graphic.png" alt="">
+        <img src="/i/graphic.png" alt="">
       </div>
     </section>
 
@@ -185,18 +185,18 @@
         <div class="clearfix">
           <div class="col-one-third">
             <div class="align-center">
-              <a href="https://github.com/midonet"><img src="i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/midonet">github.com/midonet</a>
+              <a href="https://github.com/midonet"><img src="/i/GitHub_Logo.png" width="300" height="123" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/midonet">github.com/midonet</a>
             </div>
           </div>
           <div class="col-one-third">
             <div class="align-center">
-              <a href="https://slack.midonet.org"><img src="i/chat.png" border="0">MidoNet Slack Community</a>
+              <a href="https://slack.midonet.org"><img src="/i/chat.png" border="0">MidoNet Slack Community</a>
               <strong><br></strong>
             </div>
           </div>
           <div class="col-one-third">
             <div class="align-center">
-              <a href="https://lists.midonet.org" target="_self"><img src="i/mail.png" border="0"></a><br>
+              <a href="https://lists.midonet.org" target="_self"><img src="/i/mail.png" border="0"></a><br>
               <a href="https://lists.midonet.org">lists.midonet.org</a>
             </div>
           </div>
@@ -219,76 +219,76 @@
         <h1 class="section-heading">Our Members</h1>
         <br>
         <div id="users">
-          <a href="https://www.8x8.com/" rel="nofollow"><img src="i/8x8.png" width=200 border="0"></a>
+          <a href="https://www.8x8.com/" rel="nofollow"><img src="/i/8x8.png" width=200 border="0"></a>
         </div>
         <div id="users">
-          <a href="http://www.advantech.com/" rel="nofollow"><img src="i/advantech.png" width=200 border="0"></a>
+          <a href="http://www.advantech.com/" rel="nofollow"><img src="/i/advantech.png" width=200 border="0"></a>
         </div>
         <div id="users">
-          <a href="http://www.bit-isle.co.jp/en/" target="_blank" rel="nofollow"><img src="i/bit-isle.png" width=200 border="0"></a>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div id="users">
-          <a href="http://www.broadcom.com" target="_blank" rel="nofollow"><img src="i/broadcom.png" width=200 border="0" style="margin-top:-24px"></a>
-        </div>
-        <div id="users">
-          <a href="https://www.cumulusnetworks.com/" target="_blank" rel="nofollow"><img src="i/cumulus.png" width=200 border="0" style="margin-top:24px"></a>
-        </div>
-        <div id="users">
-          <a href="https://www.eucalyptus.com/" target="_blank" rel="nofollow"><img src="i/eucalyptus.png" width=200 border="0" style="margin-top:24px"></a>
+          <a href="http://www.bit-isle.co.jp/en/" target="_blank" rel="nofollow"><img src="/i/bit-isle.png" width=200 border="0"></a>
         </div>
       </div>
       <div class="wrapper">
         <div id="users">
-          <a href="https://www.fujitsu.com/" target="_blank" rel="nofollow"><img src="i/fujitsu.png" width=200 border="0" style="margin-top:-24px"></a>
+          <a href="http://www.broadcom.com" target="_blank" rel="nofollow"><img src="/i/broadcom.png" width=200 border="0" style="margin-top:-24px"></a>
         </div>
         <div id="users">
-          <a href="http://www.idcf.jp/english/" target="_blank" rel="nofollow"><img src="i/idc.png" width=200 border="0" style="margin-top:24px"></a>
+          <a href="https://www.cumulusnetworks.com/" target="_blank" rel="nofollow"><img src="/i/cumulus.png" width=200 border="0" style="margin-top:24px"></a>
         </div>
         <div id="users">
-          <a href="http://www.kvhasia.com/" target="_blank" rel="nofollow"><img src="i/kvh.png" width=200 border="0"></a>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div id="users">
-          <a href="http://www.mellanox.com" target="_blank" rel="nofollow"><img src="i/mellanox.png" width=200 border="0" style="margin-top:-24px"></a>
-        </div>
-        <div id="users">
-          <a href="http://www.midokura.com" target="_blank" ><img src="i/midokura.png" width=200 border="0" style="margin-top:24px"></a>
-        </div>
-        <div id="users">
-          <a href="https://www.mirantis.com/" target="_blank" rel="nofollow"><img src="i/mirantis.png" width=200 border="0" style="margin-top:-24px"></a>
+          <a href="https://www.eucalyptus.com/" target="_blank" rel="nofollow"><img src="/i/eucalyptus.png" width=200 border="0" style="margin-top:24px"></a>
         </div>
       </div>
       <div class="wrapper">
         <div id="users">
-          <a href="http://www.nimboxx.com/" target="_blank" rel="nofollow"><img src="i/nimboxx.png" width=200 border="0" style="margin-top:36px"></a>
+          <a href="https://www.fujitsu.com/" target="_blank" rel="nofollow"><img src="/i/fujitsu.png" width=200 border="0" style="margin-top:-24px"></a>
         </div>
         <div id="users">
-          <a href="http://quantaqct.com/" target="_blank" rel="nofollow"><img src="i/quanta.png" width=200 border="0" style="margin-top:24px"></a>
+          <a href="http://www.idcf.jp/english/" target="_blank" rel="nofollow"><img src="/i/idc.png" width=200 border="0" style="margin-top:24px"></a>
         </div>
         <div id="users">
-          <a href="http://www.redhat.com/" target="_blank" rel="nofollow"><img src="i/redhat.png" width=200 border="0" style="margin-top:24px"></a>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div id="users">
-          <a href="http://www.solinea.com/" target="_blank" rel="nofollow"><img src="i/solinea.png" width=200 border="0" style="margin-top:24px"></a>
-        </div>
-        <div id="users">
-          <a href="http://www.stratoscale.com/" target="_blank" rel="nofollow"><img src="i/stratoscale.png" width=200 border="0" style="margin-top:24px"></a>
-        </div>
-        <div id="users">
-          <a href="http://www.suse.com/" target="_blank" rel="nofollow"><img src="i/suse.png" width=200 border="0"></a>
+          <a href="http://www.kvhasia.com/" target="_blank" rel="nofollow"><img src="/i/kvh.png" width=200 border="0"></a>
         </div>
       </div>
       <div class="wrapper">
         <div id="users">
-          <a href="http://www.ubuntu.com" target="_blank" rel="nofollow"><img src="i/ubuntu-logo.png" width=200 border="0" style="margin-top:12px"></a>
+          <a href="http://www.mellanox.com" target="_blank" rel="nofollow"><img src="/i/mellanox.png" width=200 border="0" style="margin-top:-24px"></a>
         </div>
         <div id="users">
-          <a href="http://www.zetta.io/" target="_blank" rel="nofollow"><img src="i/zetta.png" width=200 border="0" style="margin-top:24px"></a>
+          <a href="http://www.midokura.com" target="_blank" ><img src="/i/midokura.png" width=200 border="0" style="margin-top:24px"></a>
+        </div>
+        <div id="users">
+          <a href="https://www.mirantis.com/" target="_blank" rel="nofollow"><img src="/i/mirantis.png" width=200 border="0" style="margin-top:-24px"></a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="users">
+          <a href="http://www.nimboxx.com/" target="_blank" rel="nofollow"><img src="/i/nimboxx.png" width=200 border="0" style="margin-top:36px"></a>
+        </div>
+        <div id="users">
+          <a href="http://quantaqct.com/" target="_blank" rel="nofollow"><img src="/i/quanta.png" width=200 border="0" style="margin-top:24px"></a>
+        </div>
+        <div id="users">
+          <a href="http://www.redhat.com/" target="_blank" rel="nofollow"><img src="/i/redhat.png" width=200 border="0" style="margin-top:24px"></a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="users">
+          <a href="http://www.solinea.com/" target="_blank" rel="nofollow"><img src="/i/solinea.png" width=200 border="0" style="margin-top:24px"></a>
+        </div>
+        <div id="users">
+          <a href="http://www.stratoscale.com/" target="_blank" rel="nofollow"><img src="/i/stratoscale.png" width=200 border="0" style="margin-top:24px"></a>
+        </div>
+        <div id="users">
+          <a href="http://www.suse.com/" target="_blank" rel="nofollow"><img src="/i/suse.png" width=200 border="0"></a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="users">
+          <a href="http://www.ubuntu.com" target="_blank" rel="nofollow"><img src="/i/ubuntu-logo.png" width=200 border="0" style="margin-top:12px"></a>
+        </div>
+        <div id="users">
+          <a href="http://www.zetta.io/" target="_blank" rel="nofollow"><img src="/i/zetta.png" width=200 border="0" style="margin-top:24px"></a>
         </div>
       </div>
     </section>
