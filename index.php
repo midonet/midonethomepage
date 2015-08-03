@@ -139,26 +139,37 @@
       <div>
         <h1 class="section-heading"><a class="anchor" id="help">Getting Help</a></h1>
         <p class="desc">
-          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="http://docs.midonet.org">documentation</a>, a growing&nbsp;<a href="https://github.com/midonet/midonet/wiki">wiki</a>, and a few other resources which you can find links to below
+          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="http://docs.midonet.org">documentation</a> and a growing&nbsp;<a href="https://github.com/midonet/midonet/wiki">wiki</a>. Furthermore, interactive support is provided as detailed below.
         </p>
       </div>
       <div class="clearfix gbox">
         <div>
           <h2 class="sub-heading">Community Support</h2>
+          <div class="box">
+            <p>Our community is using various channels to communicate with each other.
+               If you have questions or need help with operating MidoNet, you're invited to join us as follows.
+               Please don't forget to thank the people assisting you!</p>
+          </div>
         </div>
         <div class="col-one-third">
           <div class="box"><h3>Ask</h3>
-            <p>Head over to Stack Exchange where you might find the answer you're looking for.  If not, feel free to ask a new question.  Community members are actively checking and voting up the best questions.</p>
+            <p>Head over to Ask MidoNet where you might find the answer you're looking for.  If not, feel free to ask a new question.</p>
+            <br>
+            <p>Community members are actively checking and voting up the best questions and answers.</p>
             <br>
             <br>
             <br>
-            <p><strong><a href="https://stackoverflow.com/questions/tagged/midonet">MidoNet on StackExchange</a></strong></p>
+            <p><strong><a href="https://ask.midonet.org">Ask MidoNet</a></strong></p>
           </div>
         </div>
         <div class="col-one-third">
           <div class="box">
             <h3><strong>Slack Chat</strong></h3>
-            <p>Documentation doesn&rsquo;t always cover every situation, and conversation is often the best option. &nbsp;Community members are usually around to provide assistance and answer questions. Don&rsquo;t forget to thank the helpful community volunteers for providing this service!</p>
+            <p>Documentation doesn&rsquo;t always cover every situation, and conversation is often the best option.</p>
+            <br>
+            <p>Community members are usually around to provide quick assistance and answer questions.</p>
+            <br>
+            <br>
             <br>
             <p><strong><a href="https://slack.midonet.org">Slack Chat</a></strong></p>
           </div>
@@ -168,12 +179,16 @@
             <h3 >Mailing Lists</h3>
             <p >If chat isn&rsquo;t your thing, or no one is around to help, feel free to ask your questions on the mailing lists. &nbsp;</p>
             <br>
-            <br>
-            <br>
+            <p>Community members are reading every email and doing their best to provide help.</p>
             <br>
             <br>
             <br>
             <p><strong><a href="https://lists.midonet.org">Sign up for the mailing lists</a></strong></p>
+          </div>
+        </div>
+        <div>
+          <div class="box">
+            <p>When communicating with the community, please heed to our <a href="https://github.com/midonet/midonet/wiki/Code-of-Conduct">Code of Conduct.</a></p>
           </div>
         </div>
       </div>
@@ -411,7 +426,7 @@
                   <p><a href="https://lists.midonet.org"><strong>Mailing Lists - </strong> https://lists.midonet.org</a></p>
                 </li>
                 <li>
-                  <p><a href="https://stackoverflow.com/questions/tagged/midonet"><strong>Ask - </strong>On StackOverflow</a></p>
+                  <p><a href="https://ask.midonet.org"><strong>Ask MidoNet - </strong>https://ask.midonet.org</a></p>
                 </li>
                 <li>
                   <p><a href="https://midonet.atlassian.net"><strong>Jira - </strong>https://midonet.atlassian.net/</a></p>
