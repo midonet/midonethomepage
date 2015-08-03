@@ -159,6 +159,7 @@
             <br>
             <br>
             <br>
+            <br>
             <p><strong><a href="https://ask.midonet.org">Ask MidoNet</a></strong></p>
           </div>
         </div>
@@ -183,10 +184,11 @@
             <br>
             <br>
             <br>
+            <br>
             <p><strong><a href="https://lists.midonet.org">Sign up for the mailing lists</a></strong></p>
           </div>
         </div>
-        <div>
+        <div style="clear: both;">
           <div class="box">
             <p>When communicating with the community, please heed to our <a href="https://github.com/midonet/midonet/wiki/Code-of-Conduct">Code of Conduct.</a></p>
           </div>
