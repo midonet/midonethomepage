@@ -159,7 +159,6 @@
             <br>
             <br>
             <br>
-            <br>
             <p><strong><a href="https://ask.midonet.org">Ask MidoNet</a></strong></p>
           </div>
         </div>
@@ -181,7 +180,6 @@
             <p >If chat isn&rsquo;t your thing, or no one is around to help, feel free to ask your questions on the mailing lists. &nbsp;</p>
             <br>
             <p>Community members are reading every email and doing their best to provide help.</p>
-            <br>
             <br>
             <br>
             <br>
