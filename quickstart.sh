@@ -343,7 +343,7 @@ cat <<-EOF
 	    To access through Horizon, use one of the following user/passwords:
 
 	    * midoadmin/midoadmin (Midokura tenant, admin user)
- 	    * midouser/midouser (Midokura tenant, raw user)
+	    * midouser/midouser (Midokura tenant, raw user)
 	    * admin/testmido (Admin tenant, admin user)
 
 	    Thanks for trying MidoNet!
