@@ -344,7 +344,7 @@ cat <<-EOF
 
 	    * midoadmin/midoadmin (Midokura tenant, admin user)
  	    * midouser/midouser (Midokura tenant, raw user)
-	    * admin/admin (Admin tenant, admin user)
+	    * admin/testmido (Admin tenant, admin user)
 
 	    Thanks for trying MidoNet!
 
