@@ -31,7 +31,7 @@ install_puppet_and_modules() {
 
 	apt-get -y update | tee $LOG_FILE | cat &> /dev/null
 	apt-get install -y puppet | tee -a $LOG_FILE | cat &> /dev/null
-	puppet module install midonet-midonet_openstack | tee -a $LOG_FILE | cat &> /dev/null
+	puppet module install --force midonet-midonet_openstack | tee -a $LOG_FILE | cat &> /dev/null
 	puppet module install --force midonet-neutron | tee -a $LOG_FILE | cat &> /dev/null
 
 	cat <<-EOF
@@ -46,8 +46,8 @@ create_macvlan() {
 	* Creating macvlan attached to eth0 with IP address '172.28.28.4'
 	OS services will listen this IP address
 	EOF
-	ip l add osservices link eth0 type macvlan
-	ip a add 172.28.28.4/24 dev osservices
+	ip l add osservices link eth0 type macvlan ||:
+	ip a add 172.28.28.4/24 dev osservices ||:
 }
 
 configure_puppet_manifests() {
@@ -320,7 +320,7 @@ patch_horizon() {
 
 	# Apply the patch
 	cd /usr/share/openstack-dashboard
-	patch -p1 < /tmp/horizon_floating_ip.patch
+	patch -N -p1 < /tmp/horizon_floating_ip.patch
 	cd -
 
 	cat <<-EOF
