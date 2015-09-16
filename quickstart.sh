@@ -31,7 +31,7 @@ install_puppet_and_modules() {
 
 	apt-get -y update | tee $LOG_FILE | cat &> /dev/null
 	apt-get install -y puppet | tee -a $LOG_FILE | cat &> /dev/null
-	puppet module install --force midonet-midonet_openstack | tee -a $LOG_FILE | cat &> /dev/null
+	puppet module install midonet-midonet_openstack | tee -a $LOG_FILE | cat &> /dev/null
 	puppet module install --force midonet-neutron | tee -a $LOG_FILE | cat &> /dev/null
 
 	cat <<-EOF
