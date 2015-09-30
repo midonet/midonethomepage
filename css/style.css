@@ -20,6 +20,19 @@
 .wrapper * {
     max-width: 100%;
 }
+/*BANNER*/
+.banner {
+        text-align: center;
+        padding: 25px;
+        background-color: #00c0e8;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 1.2em;
+}
+.banner a {
+        color: #ffffff;
+}
 /*SECTIONS*/
 .users {
 	width: 100%;

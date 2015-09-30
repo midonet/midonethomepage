@@ -19,6 +19,10 @@
 
   <body>
 
+    <div class="banner">
+      <p>Join us for the <a href="https://github.com/midonet/midonet/wiki/MidoNet-Mini-Summit-Tokyo-2015">MidoNet Mini-Summit Tokyo</a></p>
+    </div>
+
     <section class="header">
       <topbutton>
         <script async defer src="https://slack.midonet.org/slackin.js"></script>
