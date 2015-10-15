@@ -34,7 +34,7 @@
           <a href="#help" class="scrollto">Help</a>
           <a href="#quickstart" class="scrollto">Quick Start</a>
           <a href="#resources" class="scrollto">Resources</a>
-          <a href="http://blog.midonet.org">Blog</a>
+          <a href="https://blog.midonet.org">Blog</a>
           <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
           <a href="http://docs.midonet.org">Docs</a>
           <a href="/midonet-tv">TV</a>
@@ -412,7 +412,7 @@
               <h3>Links</h3>
               <ul class="rlinks">
                 <li>
-                  <p><a href="http://blog.midonet.org"><strong>MidoNet Blog -</strong> http://blog.midonet.org</a></p>
+                  <p><a href="https://blog.midonet.org"><strong>MidoNet Blog -</strong> https://blog.midonet.org</a></p>
                 </li>
                 <li>
                   <p><a href="https://www.midonet.org/#downloads"><strong>Downloads - </strong>https://midonet.org/#downloads</a></p>
