@@ -415,7 +415,7 @@
                   <p><a href="https://blog.midonet.org"><strong>MidoNet Blog -</strong> https://blog.midonet.org</a></p>
                 </li>
                 <li>
-                  <p><a href="https://www.midonet.org/#downloads"><strong>Downloads - </strong>https://midonet.org/#downloads</a></p>
+                  <p><a href="https://www.midonet.org/#downloads"><strong>Downloads - </strong>https://www.midonet.org/#downloads</a></p>
                 </li>
                 <li>
                   <p><a href="https://docs.midonet.org"><strong>MidoNet Docs - </strong> https://docs.midonet.org</a></p>
