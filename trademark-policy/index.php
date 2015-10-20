@@ -23,7 +23,7 @@
         <nav>
          <a href="https://www.midonet.org">Home</a>
          <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
-         <a href="http://docs.midonet.org">Docs</a>
+         <a href="https://docs.midonet.org">Docs</a>
        </nav>
        <h1>Midonet</h1>
      </div><!--END WRAPPER-->

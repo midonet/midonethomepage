@@ -36,7 +36,7 @@
           <a href="#resources" class="scrollto">Resources</a>
           <a href="https://blog.midonet.org">Blog</a>
           <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
-          <a href="http://docs.midonet.org">Docs</a>
+          <a href="https://docs.midonet.org">Docs</a>
           <a href="/midonet-tv">TV</a>
           <a href="https://planet.midonet.org">Planet</a>
         </nav>
@@ -143,7 +143,7 @@
       <div>
         <h1 class="section-heading"><a class="anchor" id="help">Getting Help</a></h1>
         <p class="desc">
-          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="http://docs.midonet.org">documentation</a> and a growing&nbsp;<a href="https://github.com/midonet/midonet/wiki">wiki</a>. Furthermore, interactive support is provided as detailed below.
+          Thanks to a very active MidoNet community, there are a number of different ways that you can get answers to your MidoNet-related questions. The MidoNet project already has some great&nbsp; <a href="https://docs.midonet.org">documentation</a> and a growing&nbsp;<a href="https://github.com/midonet/midonet/wiki">wiki</a>. Furthermore, interactive support is provided as detailed below.
         </p>
       </div>
       <div class="clearfix gbox">
@@ -418,7 +418,7 @@
                   <p><a href="https://www.midonet.org/#downloads"><strong>Downloads - </strong>https://midonet.org/#downloads</a></p>
                 </li>
                 <li>
-                  <p><a href="http://docs.midonet.org"><strong>MidoNet Docs - </strong> http://docs.midonet.org</a></p>
+                  <p><a href="https://docs.midonet.org"><strong>MidoNet Docs - </strong> https://docs.midonet.org</a></p>
                 </li>
                 <li>
                   <p><a href="https://github.com/midonet"><strong>Source Code - </strong> https://github.com/midonet</a></p>
@@ -448,7 +448,7 @@
             <div class="box">
               <h3>Downloads</h3>
               <div class="desc-small">
-                The easiest way to get started is to use the <a href="#quickstart" class="scrollto">quickstart</a>, but if you're ready to get started with a more powerful deployment, you can find links to the software repositories below. Don't forget to refer to the <a href="http://docs.midonet.org">documentation</a> for assistance with manual installations.
+                The easiest way to get started is to use the <a href="#quickstart" class="scrollto">quickstart</a>, but if you're ready to get started with a more powerful deployment, you can find links to the software repositories below. Don't forget to refer to the <a href="https://docs.midonet.org">documentation</a> for assistance with manual installations.
               </div>
               <ul class="dlinks">
                 <li><a href="http://repo.midonet.org"><strong>Package Repositories  - </strong>http://repo.midonet.org</a></li>
