@@ -14,8 +14,8 @@
     </ul>
     <ul>
       <li><a href="http://midokura.com">Sponsored by Midokura</a></li>
-      <li><a href="http://docs.midonet.org">Documentation</a></li>
-      <li><a href="http://docs.midonet.org/docs/latest/rest-api/">API Specification</a></li>
+      <li><a href="https://docs.midonet.org">Documentation</a></li>
+      <li><a href="https://docs.midonet.org/docs/latest/rest-api/">API Specification</a></li>
     </ul>
     <ul class="social">
       <li class="twitter"><a href="https://twitter.com/midonet">@midonet</a></li>
