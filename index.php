@@ -19,9 +19,11 @@
 
   <body>
 
+    <!--
     <div class="banner">
       <p>Join us for the <a href="https://midoday.midonet.org/tokyo-2015">MidoDay Tokyo 2015</a></p>
     </div>
+    -->
 
     <section class="header">
       <topbutton>
