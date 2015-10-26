@@ -139,6 +139,7 @@ function run_ansible {
   ansible-playbook $EXTRA_FLAGS -i hosts_localhost_allinone -e deploy=$DISTRO -e os_virt_type=$QEMU_VIRT local-allinone.yml >>$LOG_FILE 2>&1
 }
 
+export LC_ALL=C
 echo "Logging to $LOG_FILE"
 check_root
 mkdir -p $WORK_PATH
