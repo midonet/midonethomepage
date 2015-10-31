@@ -123,7 +123,13 @@
             <br>
             <p>Execute this command <b>inside an Ubuntu 14.04 Virtual Machine</b> with at least 4GB of memory (8GB recommended)</p>
             <pre>$ curl -sL quickstart.midonet.org | sudo bash</pre>
-            <p>This command will install a MidoNet 2015.01 with OpenStack Juno. It will give the instructions to log in into Horizon once finished.</p>
+            <p>This command will install the latest MidoNet with OpenStack. Once finished, you will be told how to log into Horizon.</p>
+            <br>
+            <br>
+            <h2>Fix: VNC not working behind NAT</h2>
+            <p>
+              Most likely, you will try this out in a VM that is behind some kind of NAT. In this case, VNC will not work out of the box. Just replacing the IP in the novncproxy_base_url setting in /etc/nova/nova.conf and restarting the nova-api and nova-console services should fix this.
+            </p>
             <br>
             <br>
             <h2>I prefer to deploy it by myself</h2>
