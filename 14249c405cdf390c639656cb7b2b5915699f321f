@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ac7a964_84746bfe",
+        "filename": "quickstart-v5.0.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1003555
+      },
+      "writtenOn": "2015-11-17T10:37:37Z",
+      "side": 1,
+      "message": "this should be put in the fake_uplink.sh script, rather than here, since that has all the parameters available.",
+      "revId": "14249c405cdf390c639656cb7b2b5915699f321f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
