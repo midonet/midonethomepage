@@ -16,6 +16,24 @@
       "revId": "14249c405cdf390c639656cb7b2b5915699f321f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ac7a964_844b8baf",
+        "filename": "quickstart-v5.0.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1001270
+      },
+      "writtenOn": "2015-11-17T10:45:37Z",
+      "side": 1,
+      "message": "the fake uplink script should not add those rules by default.\nIf we do, we will need to add a new tarball.\n\nAs we have those public IPs \"hardcoded\" in the tarball, I don\u0027t see why we can set them here too.",
+      "parentUuid": "7ac7a964_84746bfe",
+      "revId": "14249c405cdf390c639656cb7b2b5915699f321f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
