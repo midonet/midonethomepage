@@ -105,7 +105,7 @@ function check_kvm {
 }
 
 function get_tarball {
- wget $TARBALL_URL -O /tmp/quickstart-ansible.tar.gz
+ wget $TARBALL_URL -O /tmp/quickstart-ansible.tar.gz >>$LOG_FILE 2>&1
  tar xzf /tmp/quickstart-ansible.tar.gz -C $WORK_PATH  >>$LOG_FILE 2>&1
 }
 
@@ -130,6 +130,8 @@ function check_distro  {
 
 }
 
+
+
 function run_ansible {
   echo "* Running ansible... "
   cd $WORK_PATH/quickstart
@@ -137,6 +139,15 @@ function run_ansible {
     EXTRA_FLAGS="-vvvv"
   fi
   ansible-playbook $EXTRA_FLAGS -i hosts_localhost_allinone -e deploy=$DISTRO -e os_virt_type=$QEMU_VIRT local-allinone.yml >>$LOG_FILE 2>&1
+}
+
+function ip_forward {
+  echo -n "* Enabling IP forwarding on host... "
+  sysctl -w net.ipv4.ip_forward=1 >>$LOG_FILE 2>&1
+  iptables -t nat -I POSTROUTING -o eth0 -s 200.200.200.0/24 -j MASQUERADE >>$LOG_FILE 2>&1
+  iptables -I FORWARD -s 200.200.200.0/24 -j ACCEPT >>$LOG_FILE 2>&1
+  iptables -I FORWARD -d 200.200.200.0/24 -j ACCEPT >>$LOG_FILE 2>&1
+
 }
 
 export LC_ALL=C
@@ -151,6 +162,7 @@ check_kvm
 get_tarball
 check_distro
 run_ansible
+ip_forward
 
 cat <<-EOF
 
