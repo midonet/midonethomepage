@@ -4,7 +4,7 @@ This is the official website of [MidoNet](https://www.midonet.org).
 
 ## Production Server Environment
 
-Production server is running **Apache HTTP Server 2.2.22** with **PHP 5.3.10** on **Ubuntu 12.04.1 LTS**.
+Production server is running **Apache HTTP Server (httpd) 2.4** with **PHP (php-fpm) 5.4** on **CentOS 7**.
 
 ## Contribution Guide
 
