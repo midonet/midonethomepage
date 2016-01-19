@@ -85,7 +85,7 @@ function load_venv  {
 
 function install_ansible {
   echo -n "* Installing ansible... "
-  pip install ansible  >>$LOG_FILE 2>&1
+  pip install ansible==1.9.4  >>$LOG_FILE 2>&1
   echo "ok."
 }
 
