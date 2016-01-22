@@ -2,7 +2,7 @@
   <div class="wrapper clearfix">
     <div class="top clearfix">
       <span class="logo">Midonet</span>
-      &copy; 2011 - 2015
+      &copy; 2011 - 2016
       <a href="/trademark-policy">Trademark Policy</a>
       <a href="/privacy-policy">Privacy Policy</a>
     </div>
