@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_794db671",
+        "filename": "quickstart-ansible.tar.gz",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002753
+      },
+      "writtenOn": "2016-04-08T02:01:42Z",
+      "side": 1,
+      "message": "rename to \"quickstart-v5.0.2.tgz\" to match existing filename pattern",
+      "revId": "f224befb1452a863263e1109bd8ebde9987219bc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b9345ede",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002753
+      },
+      "writtenOn": "2016-04-08T02:01:42Z",
+      "side": 1,
+      "message": "trailing blank",
+      "range": {
+        "startLine": 18,
+        "startChar": 1,
+        "endLine": 18,
+        "endChar": 2
+      },
+      "revId": "f224befb1452a863263e1109bd8ebde9987219bc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_99319aef",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002753
+      },
+      "writtenOn": "2016-04-08T02:01:42Z",
+      "side": 1,
+      "message": "update to final url:\nhttps://www.midonet.org/quickstart-v5.0.2.tgz",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 111
+      },
+      "revId": "f224befb1452a863263e1109bd8ebde9987219bc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
