@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_b58d6133",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "Do not assume eth0, do something to detect the default NIC. Example;\n\nDEFAULT_NIC\u003d$(ip r | grep default | grep -o \"dev [a-z0-9]*\" | awk \u0027{ print $2 }\u0027)",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b5944137",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "This is a potential issue. In the worst case scenario, yum can be installed in Ubuntu, and even apt-get in CentOS! Resort to OS detection instead using /etc/os-release",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_35a15195",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "set up a lists of packages (DEB_PKGS, RPM_PKGS) as a variables clearly visible in the beginning of the script",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_15ae4d85",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "Suggestion; enable all required repos first, then add ansible package to the list (DEB_PKGS, RPM_PKGS)",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f5aac96f",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "Why insisting on \"Core\" thing? We should only care about CentOS version, which is $VERSION_ID in /etc/os-release",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d5b6a5db",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "Not critical, but this should be done in ansible as well",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b5bb21c4",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-15T04:13:31Z",
+      "side": 1,
+      "message": "Suggestion: MidoNet version (5.0.2 in here) should be another variable, so that we can easily re-use this script for future work.",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
