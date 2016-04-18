@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_786349dd",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1008062
+      },
+      "writtenOn": "2016-04-18T10:53:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_b58d6133",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_b5944137",
         "filename": "quickstart-v5.0.2.sh",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_f86e39c8",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1008062
+      },
+      "writtenOn": "2016-04-18T10:53:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_b5944137",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_35a15195",
         "filename": "quickstart-v5.0.2.sh",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2016-04-15T04:13:31Z",
       "side": 1,
       "message": "set up a lists of packages (DEB_PKGS, RPM_PKGS) as a variables clearly visible in the beginning of the script",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b869d1c0",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1008062
+      },
+      "writtenOn": "2016-04-18T10:53:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_35a15195",
       "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -115,6 +169,24 @@
       "writtenOn": "2016-04-15T04:13:31Z",
       "side": 1,
       "message": "Suggestion: MidoNet version (5.0.2 in here) should be another variable, so that we can easily re-use this script for future work.",
+      "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_9864cde5",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1008062
+      },
+      "writtenOn": "2016-04-18T10:53:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_b5bb21c4",
       "revId": "258ced4c207e6a94c90c39d7860aafe1ab0f918a",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
