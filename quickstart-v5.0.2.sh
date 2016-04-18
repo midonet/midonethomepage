@@ -15,7 +15,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# 
+#
 # This script must be run as root and is intended for CentOS 7 or
 # Ubuntu 14.04 LTS
 # This script sets up the environment for, and runs, an Ansible playbook
@@ -27,17 +27,18 @@ if [ -n "$DEBUG" ]; then
   set -x
 fi
 
+MIDONET_VERSION=5.0.2
 WORK_PATH=/opt/quickstart-midonet
 LOG_FILE=$WORK_PATH/quickstart-midonet.log
 TARBALL_URL=https://www.midonet.org/quickstart-v5.0.2.tgz
-ETH0_IP=$(ip -4 -o a  show dev eth0  | awk '{ ADDR=$4; gsub("/.+", "", ADDR); print ADDR; }')
+DEB_PKGS="python-all python-dev curl autoconf g++ python2.7-dev wget software-properties-common"
+RPM_PKGS="curl autoconf gcc-c++ python2-devel wget redhat-lsb-core redhat-lsb epel-release"
+DEFAULT_NIC=$(ip r | grep default | grep -o "dev [a-z0-9]*" | awk '{ print $2 }')
+ETH0_IP=$(ip -4 -o a  show dev $DEFAULT_NIC  | awk '{ ADDR=$4; gsub("/.+", "", ADDR); print ADDR; }')
 
 if [ -n "$OVERRIDE_URL" ]; then
   TARBALL_URL=$OVERRIDE_URL
 fi
-
-APT=`command -v apt-get` || true
-YUM=`command -v yum` || true
 
 # Functions
 function check_root {
@@ -45,44 +46,6 @@ function check_root {
     echo "This script must be run as root."
     exit 1
   fi
-}
-
-# Install dependencies
-function install_deps {
-  echo -n "* Installing basic dependencies... "
-  if [[ "$APT" != "" ]]; then
-      apt-get update   >>$LOG_FILE 2>&1
-      apt-get -y install python-all python-dev curl autoconf g++ python2.7-dev wget  >>$LOG_FILE 2>&1
-  elif [[ "$YUM" != "" ]]; then
-      yum -y install  curl autoconf gcc-c++ python2-devel wget redhat-lsb-core redhat-lsb >>$LOG_FILE 2>&1
-  else
-    distro_fail
-  fi
-  echo "ok."
-}
-
-function install_ansible {
-  echo -n "* Installing ansible... "
-  if [[ "$APT" != "" ]]; then
-    apt-get -y install software-properties-common >>$LOG_FILE 2>&1
-    apt-add-repository -y ppa:ansible/ansible >>$LOG_FILE 2>&1
-    apt-get update >>$LOG_FILE 2>&1
-    apt-get install -y ansible >>$LOG_FILE 2>&1
-  elif [[ "$YUM" != "" ]]; then
-    yum install -y epel-release >>$LOG_FILE 2>&1
-    #TODO Remove --enablerepo=epel-testing once Ansible 2.0 is available in EPEL
-    yum install -y ansible --enablerepo=epel-testing >>$LOG_FILE 2>&1
-  else
-    distro_fail
-  fi
-  echo "ok."
-}
-
-function get_tarball {
- wget $TARBALL_URL -O /tmp/quickstart-v5.0.2.tgz >>$LOG_FILE 2>&1
- echo -n "* Untarring the installer at $WORK_PATH "
- tar xzf /tmp/quickstart-v5.0.2.tgz -C $WORK_PATH  >>$LOG_FILE 2>&1
- echo "ok."
 }
 
 function distro_fail {
@@ -99,13 +62,49 @@ function check_distro  {
   echo $VERSION >>$LOG_FILE 2>&1
   HORIZON_URL="http://$ETH0_IP/horizon"
   if [[ "$NAME" =~ "Ubuntu" && "$VERSION" =~ "Trusty" ]]; then
-    DISTRO='ubuntu14'
-  elif [[ "$NAME" =~ "CentOS" && "$VERSION" =~ "Core" ]]; then
-    DISTRO='centos7'
+    DISTRO="ubuntu14"
+  elif [[ "$NAME" =~ "CentOS" && "$VERSION_ID" =~ "7" ]]; then
+    DISTRO="centos7"
   else
     distro_fail
   fi
   echo "ok."
+}
+
+# Install dependencies
+function install_deps {
+  echo -n "* Installing basic dependencies... "
+  if [[ "$DISTRO" == "ubuntu14" ]]; then
+    apt-get update >>$LOG_FILE 2>&1
+    apt-get -y install $DEB_PKGS >>$LOG_FILE 2>&1
+  elif [[ "$DISTRO" == "centos7" ]]; then
+    yum -y install $RPM_PKGS >>$LOG_FILE 2>&1
+  else
+    distro_fail
+  fi
+  echo "ok."
+}
+
+function install_ansible {
+  echo -n "* Installing ansible... "
+  if [[ "$DISTRO" == "ubuntu14" ]]; then
+    apt-add-repository -y ppa:ansible/ansible >>$LOG_FILE 2>&1
+    apt-get update >>$LOG_FILE 2>&1
+    apt-get install -y ansible >>$LOG_FILE 2>&1
+  elif [[ "$DISTRO" == "centos7" ]]; then
+    #TODO Remove --enablerepo=epel-testing once Ansible 2.0 is available in EPEL
+    yum install -y ansible --enablerepo=epel-testing >>$LOG_FILE 2>&1
+  else
+    distro_fail
+  fi
+  echo "ok."
+}
+
+function get_tarball {
+ wget $TARBALL_URL -O /tmp/quickstart-v5.0.2.tgz >>$LOG_FILE 2>&1
+ echo -n "* Untarring the installer at $WORK_PATH "
+ tar xzf /tmp/quickstart-v5.0.2.tgz -C $WORK_PATH  >>$LOG_FILE 2>&1
+ echo "ok."
 }
 
 function run_ansible {
@@ -120,7 +119,7 @@ function run_ansible {
 function ip_forward {
   echo -n "* Enabling IP forwarding on host... "
   sysctl -w net.ipv4.ip_forward=1 >>$LOG_FILE 2>&1
-  iptables -t nat -I POSTROUTING -o eth0 -s 200.200.200.0/24 -j MASQUERADE >>$LOG_FILE 2>&1
+  iptables -t nat -I POSTROUTING -o $DEFAULT_NIC -s 200.200.200.0/24 -j MASQUERADE >>$LOG_FILE 2>&1
   iptables -I FORWARD -s 200.200.200.0/24 -j ACCEPT >>$LOG_FILE 2>&1
   iptables -I FORWARD -d 200.200.200.0/24 -j ACCEPT >>$LOG_FILE 2>&1
 
@@ -130,17 +129,17 @@ export LC_ALL=C
 echo "Logging to $LOG_FILE"
 check_root
 mkdir -p $WORK_PATH
+check_distro
 install_deps
 install_ansible
 get_tarball
-check_distro
 run_ansible
 ip_forward
 
 cat <<-EOF
 
 
-        OpenStack Liberty with MidoNet 5.0.2 available in $HORIZON_URL
+        OpenStack Liberty with MidoNet $MIDONET_VERSION available in $HORIZON_URL
         To access through Horizon, use one of the following user/passwords:
 
         * demo/midonet (Demo tenant, demo user)
