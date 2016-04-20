@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_f3c52f8e",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-20T07:57:44Z",
+      "side": 1,
+      "message": "TARBALL_URL\u003dhttps://www.midonet.org/quickstart-v${MIDONET_VERSION}.tgz\nor in the future when we have quickstart branch in the ansible-midonet github repo: https://github.com/midonet/ansible-midonet/archive/${MIDONET_VERSION}.tar.gz",
+      "revId": "4a7b83af1e5c1bf11d83deea88ce0692ca18f8fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d3c0eb7e",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-20T07:57:44Z",
+      "side": 1,
+      "message": "TARBALL_URL\u003dhttps://www.midonet.org/quickstart-v${MIDONET_VERSION}.tgz",
+      "revId": "4a7b83af1e5c1bf11d83deea88ce0692ca18f8fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b3bfa7fa",
+        "filename": "quickstart-v5.0.2.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1002884
+      },
+      "writtenOn": "2016-04-20T07:57:44Z",
+      "side": 1,
+      "message": "tar xzf /tmp/quickstart-v${MIDONET_VERSION}.tgz -C $WORK_PATH  \u003e\u003e$LOG_FILE 2\u003e\u00261",
+      "revId": "4a7b83af1e5c1bf11d83deea88ce0692ca18f8fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
