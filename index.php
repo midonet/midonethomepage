@@ -121,7 +121,7 @@
           <div class="content">
             <h2>I want to run it now!</h2>
             <br>
-            <p>Execute this command <b>inside a 64-bit Ubuntu 14.04 Virtual Machine</b> with at least 4GB of memory (8GB recommended)</p>
+            <p>Execute this command <b>inside an Ubuntu 14.04 or Centos 7 Virtual Machine</b> with at least 4GB of memory (8GB recommended)</p>
             <pre>$ curl -sL quickstart.midonet.org | sudo bash</pre>
             <p>This command will install the latest MidoNet with OpenStack. Once finished, you will be told how to log into Horizon.</p>
             <br>
