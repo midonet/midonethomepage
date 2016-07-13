@@ -123,7 +123,7 @@
             <br>
             <p>Execute this command <b>inside an Ubuntu 14.04 or Centos 7 Virtual Machine</b> with at least 4GB of memory (8GB recommended)</p>
             <pre>$ curl -sL quickstart.midonet.org | sudo bash</pre>
-            <p>This command will install the latest MidoNet with OpenStack. Once finished, you will be told how to log into Horizon.</p>
+            <p>This command will install MidoNet 5.0.2 with OpenStack Liberty. Once finished, you will be told how to log into Horizon.</p>
             <br>
             <br>
             <h2>Fix: VNC not working behind NAT</h2>
