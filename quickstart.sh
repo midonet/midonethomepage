@@ -30,7 +30,7 @@ fi
 MIDONET_VERSION=5.0.2
 WORK_PATH=/opt/quickstart-midonet
 LOG_FILE=$WORK_PATH/quickstart-midonet.log
-DEB_PKGS="curl wget git"
+DEB_PKGS="curl wget git software-properties-common"
 RPM_PKGS="curl wget redhat-lsb-core redhat-lsb epel-release git"
 DEFAULT_NIC=$(ip r | grep default | grep -o "dev [a-z0-9]*" | awk '{ print $2 }')
 ETH0_IP=$(ip -4 -o a  show dev $DEFAULT_NIC  | awk '{ ADDR=$4; gsub("/.+", "", ADDR); print ADDR; }')
