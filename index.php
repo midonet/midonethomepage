@@ -132,10 +132,10 @@
             </p>
             <br>
             <br>
-            <h2>I prefer to deploy it by myself</h2>
+            <h2>I prefer to install it by myself</h2>
             <br>
             <p>
-              If you don't want to run third-party bash script code as root in your Virtual Machine, follow the <a href="https://github.com/midonet/midonet/wiki/OpenStack-All-in-One">MidoNet all-in-one tutorial</a>in MidoNet wiki.
+              If you prefer to install by yourself, check out the <a href="https://docs.midonet.org/docs/v5.0/en/quick-start-guide/ubuntu-1404_liberty/">Quick Start Guide for Ubuntu 14.04 / Liberty</a>on the MidoNet Documentation site.
             </p>
             <br>
             <br>
