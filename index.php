@@ -459,7 +459,7 @@
                 The easiest way to get started is to use the <a href="#quickstart" class="scrollto">quickstart</a>, but if you're ready to get started with a more powerful deployment, you can find links to the software repositories below. Don't forget to refer to the <a href="https://docs.midonet.org">documentation</a> for assistance with manual installations.
               </div>
               <ul class="dlinks">
-                <li><a href="http://repo.midonet.org"><strong>Package Repositories  - </strong>http://repo.midonet.org</a></li>
+                <li><a href="http://builds.midonet.org"><strong>Package Repositories  - </strong>http://builds.midonet.org</a></li>
                 <li><a href="https://github.com/midonet/midonet/archive/master.zip"><strong>Source&nbsp;Code&nbsp;zip - </strong>https://github.com/midonet/...</a></li>
               </ul>
             </div>
