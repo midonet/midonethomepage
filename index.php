@@ -34,7 +34,7 @@
       <div class="wrapper">
         <nav>
           <a href="#help" class="scrollto">Help</a>
-          <a href="#quickstart" class="scrollto">Quick Start</a>
+          <!-- <a href="#quickstart" class="scrollto">Quick Start</a> -->
           <a href="#resources" class="scrollto">Resources</a>
           <a href="https://blog.midonet.org">Blog</a>
           <a href="https://github.com/midonet/midonet/wiki">Wiki</a>
@@ -45,7 +45,7 @@
         <h1>MidoNet</h1>
         <h2>Open-source network virtualization</h2>
         <h3>MidoNet is an Apache licensed production grade network virtualization software for Infrastructure-as-a-Service (IaaS) clouds.</h3>
-        <a href="#quickstart" class="download-button">Get Started in Minutes</a>
+        <!-- <a href="#quickstart" class="download-button">Get Started in Minutes</a> -->
         <a href="/midonet-tv" class="download-button">Watch Videos</a>
       </div><!--END WRAPPER-->
     </section>
@@ -109,6 +109,7 @@
       </div>
     </section>
 
+    <!--
     <section id="quickstart">
       <div>
         <center><h1><a class="anchor" name="quickstart">Quickstart</a></h1></center>
@@ -146,6 +147,7 @@
         </p>
       </div>
     </section>
+    -->
 
     <section id="help" class="help">
       <div>
@@ -456,7 +458,7 @@
             <div class="box">
               <h3>Downloads</h3>
               <div class="desc-small">
-                The easiest way to get started is to use the <a href="#quickstart" class="scrollto">quickstart</a>, but if you're ready to get started with a more powerful deployment, you can find links to the software repositories below. Don't forget to refer to the <a href="https://docs.midonet.org">documentation</a> for assistance with manual installations.
+                <!-- The easiest way to get started is to use the <a href="#quickstart" class="scrollto">quickstart</a>, but if you're ready to get started with a more powerful deployment, -->you can find links to the software repositories below. Don't forget to refer to the <a href="https://docs.midonet.org">documentation</a> for assistance with manual installations.
               </div>
               <ul class="dlinks">
                 <li><a href="http://builds.midonet.org"><strong>Package Repositories  - </strong>http://builds.midonet.org</a></li>
